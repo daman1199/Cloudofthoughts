@@ -11,17 +11,17 @@ Contains code examples, scripts, and supplementary materials for my technical bl
 *   **Focus:** Tutorials, deployment guides, and "how-to" articles.
 *   **Key Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, and Zero Trust Networking.
 
+### 🛠️ [Engineer Handbook](./engineer-handbook)
+A collection of deep-dive architectural patterns, CLI cheat sheets, and development standards.
+*   **Focus:** Infrastructure as Code, Security implementation, and System Design.
+*   **Key Topics:** Azure CLI, Identity Management, and PowerShell.
+
 ### 📚 [Multi-Part Series](./series)
 In-depth, comprehensive series on complex Azure topics.
 *   **Focus:** End-to-end implementation guides for enterprise-grade solutions.
 *   **Current Series:** 
     *   [Building Azure Landing Zones](./series/azure-landing-zone/) - 4-part series on enterprise Azure foundations
     *   [Disaster Recovery in Azure](./series/disaster-recovery/) - 3-part series on building resilient infrastructure
-
-### 🛠️ [Engineer Handbook](./engineer-handbook)
-A collection of deep-dive architectural patterns, CLI cheat sheets, and development standards.
-*   **Focus:** Infrastructure as Code, Security implementation, and System Design.
-*   **Key Topics:** Azure CLI, Identity Management, and PowerShell.
 
 ### 📋 [Admin Handbook](./admin-handbook)
 Operational guides and reference material for SaaS platform administration.
