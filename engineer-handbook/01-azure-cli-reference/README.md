@@ -18,10 +18,10 @@ permalink: /engineer-handbook/01-azure-cli-reference/
 * [Installation](#installation)
 * [Azure Cloud Shell](#azure-cloud-shell-browser-based)
 * [Authentication](#authentication)
-* [Subscription Management](#subscription-management-the-basics)
-* [Resource Management (Resource Groups)](#resource-management-resource-groups)
 
 ### **Command Reference**
+* [Subscription Management](#subscription-management-the-basics)
+* [Resource Management (Resource Groups)](#resource-management-resource-groups)
 * [Management Groups](#management-groups)
 * [Entra ID (Formerly Azure AD)](#entra-id-formerly-azure-ad)
 * [Role Assignments (RBAC)](#role-assignments-rbac)
