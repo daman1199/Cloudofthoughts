@@ -4,8 +4,6 @@ title: "Azure CLI Reference for Management Groups & IAM"
 permalink: /engineer-handbook/01-azure-cli-reference/
 ---
 
-# Azure CLI Reference for Management Groups & IAM
-
 *A quick reference for Azure CLI commands I often use*
 
 | Date | Category |
