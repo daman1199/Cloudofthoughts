@@ -1,49 +1,67 @@
----
----
-
-@import "{{ site.theme }}";
+--- --- @import "{{ site.theme }}";
 
 /* Custom Embed Styling for Google Sites */
 
 /* 1. Hide the header (Logo, title, download buttons) */
 header {
-  display: none !important;
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* 2. Hide the footer */
 footer {
-  display: none !important;
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
 }
 
-/* 3. Maximize width for the iframe */
+/* 3. Reset the wrapper to fill the screen */
 .wrapper {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 20px !important; /* Add some breathing room */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 10px 20px !important;
+    /* Small padding so text doesn't touch edge */
+    box-sizing: border-box !important;
+    float: none !important;
+    /* Prevent floating behavior */
+    display: block !important;
 }
 
-/* 4. Modern Typography */
+/* 4. Kill the default section margins */
+section {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+}
+
+/* 5. Typography Fixes */
 body {
-  background-color: #ffffff; /* Explicit White */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-  color: #24292e; /* GitHub Dark Grey (easier on eyes than black) */
-  line-height: 1.6;
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    color: #24292e;
+    line-height: 1.6;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-/* 5. Nicer Code Blocks */
-pre, code {
-  background-color: #f6f8fa; /* GitHub Light Grey background */
-  border-radius: 6px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-  font-size: 0.9em;
+/* 6. Code block styling */
+pre,
+code {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+    font-size: 0.9em;
+    border: 1px solid #e1e4e8;
 }
 
-/* Links */
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+/* 7. Ensure images don't overflow */
+img {
+    max-width: 100%;
+    height: auto;
 }
