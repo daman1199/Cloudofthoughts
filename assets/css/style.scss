@@ -1,14 +1,39 @@
 --- ---
-/* Pure Oinam Theme Override */
+
+/* Hide Oinam Theme Header for Google Sites Embedding */
+header,
+.site-header,
+.masthead,
+.site-title,
+.site-description,
+.entry-header,
+.page-header,
+header.post-header,
+h1.post-title {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+}
+
+/* Ensure content starts at the top */
+body {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
 
 /* 
    Hide the FIRST H1 in the content area.
-   Why? Because Oinam already creates a fancy Header Title from the YAML.
-   If we keep the # H1 in the markdown (for GitHub readability), 
-   we need to hide it here so it doesn't show up twice.
+   This prevents the "Double Title" issue while keeping H1 in Markdown for GitHub view.
+   Targeting multiple potential wrappers to be safe.
 */
-.post-content h1:first-child,
-.page-content h1:first-child,
-article h1:first-of-type {
-    display: none;
+.entry-content>h1:first-child,
+.post-content>h1:first-child,
+.page-content>h1:first-child,
+article>h1:first-child,
+main>h1:first-child {
+    display: none !important;
 }
