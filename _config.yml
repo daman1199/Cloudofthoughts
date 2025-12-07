@@ -1,4 +1,14 @@
 title: Daman's Blog
 description: Azure Cloud Engineer Portfolio
-markdown: kramdown
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs/just-the-docs
+
+# Enable native search
+search_enabled: true
+
+# Appearance
+color_scheme: dark
+
+# Navigation
+aux_links:
+  "GitHub": "https://github.com/daman1199"
+  "LinkedIn": "https://www.linkedin.com/in/damanpreet-d/"
