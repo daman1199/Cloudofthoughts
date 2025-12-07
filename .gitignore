@@ -1,8 +1,0 @@
-
-# macOS clutter
-.DS_Store
-
-# Drafts and Obsidian config (Just in case you accidentally drag them over)
-.obsidian/
-_drafts/
-drafts/
