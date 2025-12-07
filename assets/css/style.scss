@@ -1,0 +1,39 @@
+--- ---
+/* Clean Oinam Theme Styling for Embeds */
+
+/* 1. Hide the entire site header (Title, Description, Nav) */
+header.site-header,
+.site-header,
+.masthead,
+.trigger {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+}
+
+/* 2. Hide any other potential wrappers for the site logo/title */
+.wrapper>header {
+    display: none !important;
+}
+
+/* 3. Reset Body Padding so content hits the top */
+body {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* 4. Ensure Typography is nice and readable */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #333;
+}
