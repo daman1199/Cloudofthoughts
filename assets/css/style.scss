@@ -1,67 +1,47 @@
 --- --- @import "{{ site.theme }}";
 
-/* Custom Embed Styling for Google Sites */
+/* Custom Embed Styling for Midnight Theme */
 
-/* 1. Hide the header (Logo, title, download buttons) */
+/* 1. Hide the header/sidebar */
 header {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
 }
 
-/* 2. Hide the footer */
-footer {
-    display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-}
-
-/* 3. Reset the wrapper to fill the screen */
-.wrapper {
+/* 2. Reset the main container to be full width */
+#container {
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 10px 20px !important;
-    /* Small padding so text doesn't touch edge */
-    box-sizing: border-box !important;
-    float: none !important;
-    /* Prevent floating behavior */
-    display: block !important;
+    padding: 20px !important;
 }
 
-/* 4. Kill the default section margins */
+/* 3. Main Content Area */
+#main {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    /* Remove borders if any */
+    background: transparent !important;
+}
+
+/* 4. Kill the footer */
+footer {
+    display: none !important;
+}
+
+/* 5. Ensure Typography is clean */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #1e1e1e;
+    /* Dark Grey Background matches Midnight default */
+}
+
+/* 6. Fix for Midnight's section wrapper */
 section {
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0 !important;
     padding: 0 !important;
-    display: block !important;
-}
-
-/* 5. Typography Fixes */
-body {
-    background-color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
-    color: #24292e;
-    line-height: 1.6;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-/* 6. Code block styling */
-pre,
-code {
-    background-color: #f6f8fa;
-    border-radius: 6px;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-    font-size: 0.9em;
-    border: 1px solid #e1e4e8;
-}
-
-/* 7. Ensure images don't overflow */
-img {
-    max-width: 100%;
-    height: auto;
 }
