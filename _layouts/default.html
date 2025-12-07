@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+
+    <!-- Use Oinam's CSS so we keep the fonts -->
+    <link rel="stylesheet" href="https://oinam.github.io/oinam-jekyll/assets/css/style.css">
+
+    <!-- Minimal Reset for the body spacing -->
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hide site header if it somehow leaks in via JS */
+        .site-header {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        {{ content }}
+    </main>
+</body>
+
+</html>
