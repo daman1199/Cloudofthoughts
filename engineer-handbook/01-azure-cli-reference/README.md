@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Azure CLI Reference for Management Groups & IAM"
+permalink: /engineer-handbook/01-azure-cli-reference/
 ---
 
 
