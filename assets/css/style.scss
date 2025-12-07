@@ -37,17 +37,3 @@ h6,
 p {
     color: #333;
 }
-
-.site-title a,
-.site-title a:hover,
-.site-title a:focus {
-    /* Disable the link’s click behaviour */
-    pointer-events: none;
-    /* No mouse clicks */
-    cursor: default;
-    /* Show the normal arrow, not the hand */
-    text-decoration: none;
-    /* Keep the original styling */
-    color: inherit;
-    /* Preserve the theme colour */
-}
