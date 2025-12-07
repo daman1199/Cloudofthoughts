@@ -1,6 +1,6 @@
 # Azure PowerShell Reference
 
-*A quick reference for Azure Powershell Commands I use often
+*A quick reference for Azure Powershell Commands I use often*
 
 | Date | Category |
 |------|----------|

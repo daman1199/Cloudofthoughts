@@ -1,6 +1,6 @@
 # Azure CLI Reference for Management Groups & IAM
 
-*A quick reference for Azure CLI commands I use often
+*A quick reference for Azure CLI commands I often use*
 
 | Date | Category |
 |------|----------|

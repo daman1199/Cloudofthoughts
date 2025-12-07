@@ -6,10 +6,12 @@ header,
 .masthead,
 .site-title,
 .site-description,
-/* Hide Duplicate Theme Titles */
-.post-title,
-.page-title,
-.post-header {
+.entry-header,
+/* Common in Oinam/Jekyll themes */
+.page-header,
+/* Another common variant */
+header.post-header,
+h1.post-title {
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;
