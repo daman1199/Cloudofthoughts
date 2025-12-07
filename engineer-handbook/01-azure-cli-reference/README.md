@@ -1,5 +1,6 @@
 ---
-title: Azure CLI Reference for Management Groups & IAM
+layout: page
+title: "Azure CLI Reference for Management Groups & IAM"
 ---
 
 
