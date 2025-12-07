@@ -1,4 +1,7 @@
-# Azure CLI Reference for Management Groups & IAM
+---
+title: Azure CLI Reference for Management Groups & IAM
+---
+
 
 *A quick reference for Azure CLI commands I often use*
 
