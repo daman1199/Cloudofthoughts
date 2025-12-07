@@ -5,7 +5,11 @@ header,
 .site-header,
 .masthead,
 .site-title,
-.site-description {
+.site-description,
+/* Hide Duplicate Theme Titles */
+.post-title,
+.page-title,
+.post-header {
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;
