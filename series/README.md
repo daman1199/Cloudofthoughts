@@ -1,4 +1,8 @@
-# Multi-Part Series
+---
+layout: page
+title: "Multi-Part Series"
+permalink: /series/
+---
 
 In-depth, comprehensive series on complex Azure topics.
 

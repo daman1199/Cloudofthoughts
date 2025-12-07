@@ -1,4 +1,8 @@
-# Blog
+---
+layout: page
+title: "Blog"
+permalink: /blog/
+---
 
 Technical tutorials, deployment guides, and hands-on "how-to" articles for Azure infrastructure.
 

@@ -1,6 +1,10 @@
-# Azure PowerShell Reference
+---
+layout: page
+title: "Azure PowerShell Reference"
+permalink: /engineer-handbook/02-azure-powershell-reference/
+---
 
-*A quick reference for Azure Powershell Commands I use often*
+*A quick reference for Azure Powershell Commands I use often**
 
 | Date | Category |
 |------|----------|

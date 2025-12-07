@@ -1,4 +1,8 @@
-# Engineer Handbook
+---
+layout: page
+title: "Engineer Handbook"
+permalink: /engineer-handbook/
+---
 
 A collection of technical references, architectural patterns, and deep-dive guides for Azure infrastructure.
 

@@ -1,4 +1,8 @@
-# Admin Handbook
+---
+layout: page
+title: "Admin Handbook"
+permalink: /admin-handbook/
+---
 
 Operational guides and reference material for SaaS platform administration.
 
