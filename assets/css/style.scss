@@ -1,0 +1,14 @@
+--- ---
+/* Pure Oinam Theme Override */
+
+/* 
+   Hide the FIRST H1 in the content area.
+   Why? Because Oinam already creates a fancy Header Title from the YAML.
+   If we keep the # H1 in the markdown (for GitHub readability), 
+   we need to hide it here so it doesn't show up twice.
+*/
+.post-content h1:first-child,
+.page-content h1:first-child,
+article h1:first-of-type {
+    display: none;
+}
