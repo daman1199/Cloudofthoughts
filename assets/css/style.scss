@@ -4,6 +4,9 @@
 /* 1. Hide the entire site header (Title, Description, Nav) */
 header.site-header,
 .site-header,
+.header,
+.header h1,
+.header h2,
 .masthead,
 .trigger {
     display: none !important;
