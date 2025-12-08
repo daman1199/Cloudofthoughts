@@ -1,7 +1,12 @@
 ---
 layout: page
 title: "Deploying a Private AKS Cluster"
+aliases: ["Private AKS Guide"]
 permalink: /guides/01-deploying-private-aks/
+tags: [azure, kubernetes]
+status: published
+type: guide
+date: 2025-12-01
 ---
 
 *Securing Kubernetes workloads by removing public endpoints and utilizing internal load balancers.*

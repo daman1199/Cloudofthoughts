@@ -2,6 +2,10 @@
 layout: page
 title: "Azure CLI Reference for Management Groups & IAM"
 permalink: /engineer-handbook/01-azure-cli-reference/
+tags: [azure, cli]
+status: published
+type: handbook
+date: 2025-12-05
 ---
 
 *A quick reference for Azure CLI commands I often use*

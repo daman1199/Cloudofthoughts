@@ -2,6 +2,10 @@
 layout: page
 title: "Hybrid DNS Resolution"
 permalink: /engineer-handbook/03-hybrid-dns-resolution/
+tags: [azure, networking, dns]
+status: published
+type: handbook
+date: 2025-12-05
 ---
 
 *Understanding how Private Endpoints, Private DNS Zones, and the Azure Private DNS Resolver enable seamless hybrid connectivity.*

@@ -2,6 +2,10 @@
 layout: page
 title: "Azure PowerShell Reference"
 permalink: /engineer-handbook/02-azure-powershell-reference/
+tags: [azure, powershell]
+status: published
+type: handbook
+date: 2025-12-05
 ---
 
 *A quick reference for Azure Powershell Commands I use often*
