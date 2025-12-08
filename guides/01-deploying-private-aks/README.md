@@ -51,12 +51,12 @@ For a private AKS cluster to function (pull system images, register nodes), your
 
 ## Implementation Steps
 
-[📥 **Download all commands used in this guide**](./all-commands.sh)
+[📥 **View all commands used in this guide**](https://github.com/daman1199/Cloudofthoughts/blob/main/guides/01-deploying-private-aks/all-commands.sh)
 
 ### 1. Deploy the Private AKS Cluster
 We use the Azure CLI to create the cluster. The key flags here are `--enable-private-cluster` and `--disable-public-fqdn` to ensure no public access is allowed. We also specify `--outbound-type userDefinedRouting` to control egress traffic.
 
-[📄 **View the full creation script**](./create-cluster.sh)
+[📄 **View the full creation script**](https://github.com/daman1199/Cloudofthoughts/blob/main/guides/01-deploying-private-aks/create-cluster.sh)
 
 ```bash
 az aks create \
@@ -104,7 +104,7 @@ To restrict access to your applications so they are only reachable from within t
 
 In Kubernetes, you don't create the Load Balancer manually in the Azure Portal. Instead, you define a `Service` manifest with a specific annotation, and AKS automatically provisions the Azure Load Balancer resource for you in the node resource group.
 
-[📄 **View the Service Manifest**](./internal-lb.yaml)
+[📄 **View the Service Manifest**](https://github.com/daman1199/Cloudofthoughts/blob/main/guides/01-deploying-private-aks/internal-lb.yaml)
 
 **Create a YAML manifest (`internal-lb.yaml`):**
 ```yaml
@@ -188,7 +188,7 @@ Now, any machine on the VNet (or VPN) can reach the app via `http://app.internal
 
 ## Troubleshooting & Verification
 
-[📄 **View the full Kubectl & Debugging Cheat Sheet**](./kubectl-commands.sh)
+[📄 **View the full Kubectl & Debugging Cheat Sheet**](https://github.com/daman1199/Cloudofthoughts/blob/main/guides/01-deploying-private-aks/kubectl-commands.sh)
 
 Since this is a private cluster, debugging connectivity or pod failures can be tricky if your VPN is down. Here is how to verify the health of your cluster using two different methods.
 
