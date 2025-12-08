@@ -22,6 +22,7 @@ permalink: /engineer-handbook/02-azure-powershell-reference/
 
 ### **Command Reference**
 * [Entra ID (Formerly Azure AD)](#entra-id-formerly-azure-ad)
+* [Active Directory & Entra Sync](#active-directory--entra-sync)
 * [Role Assignments (RBAC)](#role-assignments-rbac)
 * [Key Vault & Secrets](#key-vault--secrets)
 * [Compute (Virtual Machines)](#compute-virtual-machines)
@@ -29,6 +30,7 @@ permalink: /engineer-handbook/02-azure-powershell-reference/
 * [Storage](#storage)
 * [Azure Policy & Governance](#azure-policy--governance)
 * [Monitoring](#monitoring)
+* [Azure Migrate](#azure-migrate)
 
 ---
 
@@ -114,6 +116,9 @@ Set-AzContext -SubscriptionId "00000000-0000-0000-0000-000000000000"
 
 # Check current context
 Get-AzContext
+
+# Find all Az commands
+Get-Command -Module Az.*
 ```
 
 ## Resource Management
@@ -152,6 +157,27 @@ Get-AzADGroup -DisplayName "<Group Name>"
 
 # Get a Group's Object ID directly
 (Get-AzADGroup -DisplayName "<Group Name>").Id
+```
+
+## Active Directory & Entra Sync
+*(Run these on the AD Connect Server or RSAT-installed machine)*
+
+### 1. User Attributes
+```powershell
+# List AD Attributes for a User
+Get-ADUser -Identity "username" -Properties * | Format-List
+
+# Set custom attribute for Entra Sync filtering
+Set-ADUser -Identity "username" -Replace @{'msDS-cloudExtensionAttribute1'="EntraSync"}
+```
+
+### 2. Entra Connect Sync Cycle
+```powershell
+# View Sync Schedule
+Get-ADSyncScheduler
+
+# Manually trigger a Delta Sync
+Start-ADSyncSyncCycle -PolicyType Delta
 ```
 
 ## Role Assignments (RBAC)
@@ -266,4 +292,27 @@ New-AzStorageAccount -ResourceGroupName "<resource-group>" -Name "<storage-accou
 ```powershell
 # Get Activity Log Alerts
 Get-AzActivityLogAlert
+```
+
+## Azure Migrate
+
+### 1. Installation & Discovery
+```powershell
+# Install Module
+Install-Module Az.Migrate
+
+# View Discovered Servers
+Get-AzMigrateDiscoveredServer -ResourceGroupName "<RG>" -ProjectName "<Project>"
+```
+
+### 2. Jobs & Replication
+```powershell
+# View Migrate Jobs
+Get-AzMigrateJob -ResourceGroupName "<RG>" -ProjectName "<Project>"
+
+# View Server Replications
+Get-AzMigrateServerReplication -ResourceGroupName "<RG>" -ProjectName "<Project>"
+
+# Suspend Replication
+Suspend-AzMigrateServerReplication -TargetObjectID "<ID>"
 ```
