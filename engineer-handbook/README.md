@@ -14,6 +14,11 @@ Essential Azure CLI commands for daily infrastructure work - from authentication
 ### [Azure PowerShell Reference](./02-azure-powershell-reference/)
 PowerShell commands for Azure resource management, including Entra ID, RBAC, Key Vault, compute, and governance.
 
+## Architecture & Networking Guides
+
+### [Hybrid DNS Resolution Guide](./03-hybrid-dns-resolution/)
+A comprehensive guide to configuring hybrid DNS resolution using Azure Private DNS Resolver, including private endpoint flows and on-prem forwarding.
+
 ---
 
 [← Back to Home](../README.md)
