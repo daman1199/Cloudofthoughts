@@ -6,9 +6,9 @@ Here you'll find my personal Azure notes, real-world experiences, scripts, ideas
 
 ## 📂 Repository Structure
 
-### 📝 [Blog](./blog)
-Contains code examples, scripts, and supplementary materials for my technical blog posts.
-*   **Focus:** Tutorials, deployment guides, and "how-to" articles.
+### 📝 [Engineering Guides](./guides)
+Detailed implementation walkthroughs and build instructions.
+*   **Goal:** To provide clear, step-by-step implementation guides for complex cloud scenarios. These aren't just opinions; they are reproducible build instructions.
 *   **Key Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, and Zero Trust Networking.
 
 ### 🛠️ [Engineer Handbook](./engineer-handbook)
