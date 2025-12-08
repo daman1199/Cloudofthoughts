@@ -4,6 +4,10 @@ I'm a cloud engineer who—figuratively and literally—spends most of my days l
 
 Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
 
+## 🚀 Recent Updates
+*   **[Hybrid DNS Resolution](./engineer-handbook/03-hybrid-dns-resolution/)** (New!)
+*   **[Deploying a Private AKS Cluster](./guides/01-deploying-private-aks/)** (New!)
+
 ## 📂 Repository Structure
 
 ### 📝 [Engineering Guides](./guides)
