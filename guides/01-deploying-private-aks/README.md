@@ -81,10 +81,7 @@ az aks create \
 
 *Note: Once completed, Azure will create a secondary resource group (usually starting with `MC_`) to house the node pools, load balancers, and other infrastructure.*
 
-> **🔥 Common Pitfall: CI/CD Timeouts**
-> A frequent issue with private clusters is that your CI/CD pipeline (e.g., GitHub Actions, Azure DevOps) fails to deploy immediately after creation.
-> **Reason:** The Private DNS Zone link to the VNet often takes a minute to propagate. If your runner tries to reach the API server during this window, it will see `NXDOMAIN`.
-> **Fix:** Add a `sleep 60` or a DNS polling check in your pipeline before the first `kubectl` command.
+
 
 ### 2. Accessing the Cluster (Without VPN)
 If you are not currently connected to the VNet (via VPN or Jumpbox), you can still manage the cluster using the `command invoke` feature.
