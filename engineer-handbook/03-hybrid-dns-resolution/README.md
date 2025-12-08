@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Hybrid DNS Resolution Guide"
+title: "Hybrid DNS Resolution"
 permalink: /engineer-handbook/03-hybrid-dns-resolution/
 ---
 
