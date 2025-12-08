@@ -10,8 +10,8 @@ az aks create \
     --enable-private-cluster \
     --network-plugin azure \
     --enable-managed-identity \
-    --node-count 3 \
-    --node-vm-size Standard_DS2_v2 \
-    --location eastus \
+    --node-count <node-count> \
+    --node-vm-size <sku> \
+    --location <region> \
     --outbound-type userDefinedRouting \
     --disable-public-fqdn
