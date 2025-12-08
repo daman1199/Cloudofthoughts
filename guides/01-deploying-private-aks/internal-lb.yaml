@@ -1,0 +1,20 @@
+
+
+apiVersion: v1
+kind: Service # Deploying Internal Load Balancer as a svc
+metadata:  
+  name: internal-lb  #name for our internal load balancer
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"  # THIS IS NEEDED
+spec:
+  type: LoadBalancer
+  loadBalancerIP: <IP Address>  # Choose an unused IP from your subnet
+  ports:
+  - port: 80  #Adjust as needed
+    targetPort: 80  #Adjust as needed
+    protocol: TCP  #Adjust as needed
+  selector:
+    app: my-app
+
+
+# Confirm creation with Kubectl get svc

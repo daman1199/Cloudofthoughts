@@ -6,13 +6,16 @@ permalink: /guides/
 
 Detailed implementation guides and hands-on tutorials for Azure and Cloud Infrastructure.
 
-## Coming Soon
+## Available Guides
 
-Guides will be published here as they are finalized. Check back soon for in-depth walkthroughs on:
-- Private AKS deployments
-- Secure multi-tier web applications
-- Azure Container Registry integration
-- And more...
+### [Deploying a Private AKS Cluster](./01-deploying-private-aks/)
+Securing Kubernetes workloads by removing public endpoints and utilizing internal load balancers.
+
+## Coming Soon
+*   Secure multi-tier web applications
+*   Azure Container Registry integration
+*   Azure AI Foundry with Private Endpoints
+*   Zero Trust Networking
 
 ---
 
