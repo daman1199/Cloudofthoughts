@@ -40,7 +40,7 @@ This script handles the "cold storage" phase of offboarding by performing the fo
 > *   A configured "Archive/Deleted User" Shared Drive.
 > *   A specific Vault Matter created for offboarding (Get the ID via `gam print matters`).
 
-[📄 **View raw PowerShell script**](./Google-workspace-archive-account.ps1)
+[📄 **View raw PowerShell script**](https://github.com/daman1199/Cloudofthoughts/blob/main/admin-handbook/01-account-archiving-script/Google-workspace-archive-account.ps1)
 
 ```powershell
 # Script: Google Workspace User Archiver
