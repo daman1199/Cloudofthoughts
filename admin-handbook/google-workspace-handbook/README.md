@@ -15,7 +15,7 @@ This handbook contains reference material for administering Google Workspace, in
 
 ## Tools & Scripts
 
-### 📂 [01. Account Archiving Script](./admin-handbook/google-workspace-handbook/01-account-archiving-script/)
+### 📂 [01. Account Archiving Script](./01-account-archiving-script/README.md)
 A comprehensive PowerShell script to automate the offboarding process.
 *   **Features:** Triggers Google Vault exports, downloads data locally, uploads to a designated Shared Drive, and handles final account deletion.
 *   **Dependencies:** GAM, Google Vault.
