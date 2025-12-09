@@ -23,8 +23,6 @@ This guide details how to configure **App-Only authentication** for SharePoint O
 
 We will use a **Self-Signed Certificate** to secure the connection, ensuring that no user passwords are stored in scripts.
 
-**Reference:** [Granting access via Azure AD App-Only (Microsoft Learn)](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)
-
 ---
 
 ## Prerequisites
@@ -147,3 +145,6 @@ Get-PnPWeb
 - **No Passwords:** This method uses a certificate for authentication, eliminating the need to store hardcoded passwords in scripts.
 - **Least Privilege:** When assigning API permissions, grant only what is necessary (e.g., `Sites.Read.All` instead of `FullControl` if possible).
 - **Certificate Expiry:** Remember to monitor the expiration date of your certificate and rotate it before it expires to prevent service interruptions.
+
+## References
+*   [Granting access via Azure AD App-Only (Microsoft Learn)](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread)
