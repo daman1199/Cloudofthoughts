@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: handbook-index
 title: "Admin Handbook"
 permalink: /admin-handbook/
 ---
