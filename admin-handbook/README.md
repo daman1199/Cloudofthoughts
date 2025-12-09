@@ -6,11 +6,15 @@ permalink: /admin-handbook/
 
 Operational guides and reference material for SaaS platform administration.
 
-## Coming Soon
+## Google Workspace
 
-Administration guides will be published here as they are finalized. Planned handbooks include:
-- **Google Workspace Handbook** - GAM7 scripts and automation
-- **Microsoft 365 Handbook** - Tenant management and configuration
+### [Automating User Archival with GAM](./Google%20Workspace%20Handbook/01-account-archiving-script/)
+A comprehensive PowerShell script using GAM to automate the entire user offboarding lifecycle: triggering Vault exports, downloading data, and archiving to Shared Drives.
+
+## Microsoft 365
+
+### Microsoft 365 Handbook *(Coming Soon)*
+Future guides on tenant management, security configuration, and compliance.
 
 ---
 

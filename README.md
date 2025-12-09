@@ -5,8 +5,11 @@ I'm a cloud engineer who—figuratively and literally—spends most of my days l
 Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
 
 ## 🚀 Recent Updates
-*   **[Hybrid DNS Resolution](./engineer-handbook/03-hybrid-dns-resolution/)** (New!)
-*   **[Deploying a Private AKS Cluster](./guides/01-deploying-private-aks/)** (New!)
+*   ⭐ **[Deploying a Private AKS Cluster](./guides/01-deploying-private-aks/)** *(Featured Deep-Dive)*
+*   **[Azure CLI Reference](./engineer-handbook/01-azure-cli-reference/)** (New!)
+*   **[Azure PowerShell Reference](./engineer-handbook/02-azure-powershell-reference/)** (New!)
+*   **[Hybrid DNS Resolution](./engineer-handbook/03-hybrid-dns-resolution/)**
+*   **[Automating Google Workspace User Archival](./admin-handbook/Google%20Workspace%20Handbook/01-account-archiving-script/)** (New!)
 
 ## 📂 Repository Structure
 
