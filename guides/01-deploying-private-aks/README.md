@@ -1,9 +1,14 @@
 ---
 layout: page
-title: "Deploying a Private AKS Cluster"
-aliases: ["Private AKS Guide"]
+title: Deploying a Private AKS Cluster
+aliases:
+  - Private AKS Guide
 permalink: /guides/01-deploying-private-aks/
-tags: [azure, kubernetes]
+tags:
+  - azure
+  - kubernetes
+  - aks
+  - private-endpoint
 status: published
 type: guide
 date: 2025-12-01
@@ -165,29 +170,51 @@ kubelogin convert-kubeconfig -l azurecli
 kubectl get nodes
 ```
 
-### 5. Custom DNS Resolution (Private DNS Zone)
-Since the service is on a private IP, you cannot access it via a public URL. To use a friendly name (e.g., `app.internal.corp`) instead of the IP address, you must use an **Azure Private DNS Zone**.
+### 5. DNS & Naming Resolution (The Critical Part)
+When building a private AKS cluster, you are dealing with **two separate** Private DNS requirements. It is crucial not to confuse them.
 
-1.  **Create the Zone:**
-    ```bash
-    az network private-dns zone create -g <resource-group> -n internal.corp
-    ```
-2.  **Link to VNet:**
-    You must link this zone to your AKS VNet so the cluster (and connected VPN clients) can resolve it.
-    ```bash
-    az network private-dns link vnet create \
-      -g <resource-group> -n MyDNSLink \
-      -z internal.corp -v <vnet-resource-id> -e false
-    ```
-3.  **Create A Record:**
-    Map your custom name to the Internal Load Balancer IP you got from `kubectl get svc`.
-    ```bash
-    az network private-dns record-set a add-record \
-      -g <resource-group> -z internal.corp \
-      -n app -a <ILB-Private-IP>
-    ```
+#### A. The Cluster API Server (Control Plane)
+When you deployed the cluster with `--enable-private-cluster`, Azure **automatically** created:
+1.  A **Private Endpoint** for your API Server.
+2.  A **Private DNS Zone** (usually named like `privatelink.<region>.azmk8s.io`) in the node resource group.
 
-Now, any machine on the VNet (or VPN) can reach the app via `http://app.internal.corp`.
+*   **Why strict DNS is required:** To ensure the security of the control plane. Since the API server has **no public IP**, it can *only* be reached via its Private Endpoint IP. The Private DNS Zone maps the cluster name to this private IP, ensuring that all API traffic stays within the Azure backbone.
+*   **The Result:** `kubectl` commands will only start working once this DNS resolution path is established.
+*   **Hybrid Access (Crucial):** If you need to manage the cluster from On-Premises, you **must** create a Conditional Forwarder on your local DNS server.
+    *   **The Rule:** Point `<region>.azmk8s.io` to your Azure DNS Resolver IP.
+    *   **Example:** As shown below, for our East US cluster, we forward `eastus.azmk8s.io`.
+
+![Add Conditional Forwarder](./images/addcondfwd.png)
+
+#### B. Your Internal Applications (Data Plane)
+This is what we are configuring here. Your actual apps (running on the Internal Load Balancer) need their own custom domain name (e.g., `app.internal.corp`) so valid certificates can be issued and users can remember the address.
+
+**1. Create a Custom Private DNS Zone:**
+```bash
+az network private-dns zone create -g <resource-group> -n customdomain.internal
+```
+
+**2. Link to VNet:**
+We must link this new zone to the VNet so the cluster nodes (and you) can resolve it.
+```bash
+az network private-dns link vnet create \
+  -g <resource-group> -n MyDNSLink \
+  -z customdomain.internal -v <vnet-resource-id> -e false
+```
+
+**3. Create A Record:**
+Map your custom name to the Internal Load Balancer IP you got from `kubectl get svc`.
+```bash
+az network private-dns record-set a add-record \
+  -g <resource-group> -z customdomain.internal \
+  -n app -a <ILB-Private-IP>
+```
+
+**4. Hybrid Connectivity (On-Premises):**
+Now, any machine on the VNet can resolve our custom domain. But for **On-Premises** users to reach it:
+*   You must have a DNS Forwarder / Resolver in Azure (or use Azure Firewall DNS Proxy).
+*   You must create a **Conditional Forwarder** on your local Windows DNS Server pointing `customdomain.internal` to the Outbound Endpoint of our Azure Private DNS Resolver.
+![Custom Conditional Forwarder](./images/condfwdcustomdomain.png)
 
 ---
 
