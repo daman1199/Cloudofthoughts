@@ -2,12 +2,18 @@
 layout: page
 title: "Automating Google Workspace User Archival with GAM"
 permalink: /admin-handbook/google-workspace-handbook/01-account-archiving-script/
+tags: [google-workspace, admin, gam, powershell, automation]
 status: published
 type: handbook
 date: 2025-12-08
-tags: ["google-workspace", "admin", "gam", "powershell", "automation"]
-author: "Daman Dhaliwal"
-description: "A comprehensive PowerShell automation to handle the full lifecycle of Google Workspace user offboarding."
+---
+
+*A PowerShell automation script that handles the full lifecycle of Google Workspace user offboarding using GAM.*
+
+| Date | Category |
+|------|----------|
+| 2025-12-08 | Google Workspace / Automation |
+
 ---
 
 Offboarding users in Google Workspace can be a tedious, multi-step process. You have to create a Vault export, wait for it to process (which can take hours), download the massive files, and then re-upload them to a central storage location. Doing this manually for every employee departure is a tedious mess. 
