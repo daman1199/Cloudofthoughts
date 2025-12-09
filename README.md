@@ -9,7 +9,8 @@ Here you'll find my personal Azure notes, real-world experiences, scripts, ideas
 *   **[Azure CLI Reference](./engineer-handbook/01-azure-cli-reference/)** (New!)
 *   **[Azure PowerShell Reference](./engineer-handbook/02-azure-powershell-reference/)** (New!)
 *   **[Hybrid DNS Resolution](./engineer-handbook/03-hybrid-dns-resolution/)**
-*   **[Automating Google Workspace User Archival](./admin-handbook/Google%20Workspace%20Handbook/01-account-archiving-script/)** (New!)
+*   **[Deploying a Private AKS Cluster](./guides/01-deploying-private-aks/)**
+*   **[Automating Google Workspace User Archival](./admin-handbook/google-workspace-handbook/01-account-archiving-script/)** (New!)
 
 ## 📂 Repository Structure
 
