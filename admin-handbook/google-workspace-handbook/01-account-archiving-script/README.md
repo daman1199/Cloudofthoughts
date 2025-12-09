@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Automating Google Workspace User Archival with GAM"
-permalink: /admin-handbook/google-workspace/01-account-archiving-script/
+permalink: /admin-handbook/google-workspace-handbook/01-account-archiving-script/
 status: published
 type: handbook
 date: 2025-12-08
