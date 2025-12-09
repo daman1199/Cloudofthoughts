@@ -8,12 +8,12 @@ Operational guides and reference material for SaaS platform administration.
 
 ## Google Workspace
 
-### [Automating User Archival with GAM](./google-workspace-handbook/01-account-archiving-script/)
+### [Automating User Archival with GAM](./01-account-archiving-script/)
 A comprehensive PowerShell script using GAM to automate the entire user offboarding lifecycle: triggering Vault exports, downloading data, and archiving to Shared Drives.
 
 ## Microsoft 365
 
-### [SharePoint App-Only Access](./microsoft-365-handbook/01-sharepoint-app-only-access/)
+### [SharePoint App-Only Access](./01-sharepoint-app-only-access/)
 Configuring certificate-based authentication for automated SharePoint operations using Entra ID.
 
 ---
