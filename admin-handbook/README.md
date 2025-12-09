@@ -13,8 +13,8 @@ A comprehensive PowerShell script using GAM to automate the entire user offboard
 
 ## Microsoft 365
 
-### Microsoft 365 Handbook *(Coming Soon)*
-Future guides on tenant management, security configuration, and compliance.
+### [SharePoint App-Only Access](./microsoft-365-handbook/01-sharepoint-app-only-access/)
+Configuring certificate-based authentication for automated SharePoint operations using Entra ID.
 
 ---
 
