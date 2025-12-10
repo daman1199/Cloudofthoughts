@@ -5,35 +5,35 @@ I'm a cloud engineer who—figuratively and literally—spends most of my days l
 Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
 
 ## 🚀 Recent Updates
-*   ⭐ **[Deploying a Private AKS Cluster](./guides/01-deploying-private-aks/)** *(Featured Deep-Dive)*
-*   **[Azure CLI Reference](./engineer-handbook/01-azure-cli-reference/)** (New!)
-*   **[Azure PowerShell Reference](./engineer-handbook/02-azure-powershell-reference/)** (New!)
-*   **[Azure Hybrid DNS Resolution](./engineer-handbook/03-hybrid-dns-resolution/)**
-*   **[Automating Google Workspace User Archival](./admin-handbook/01-account-archiving-script/)**
-*   **[SharePoint App-Only Access](./admin-handbook/01-sharepoint-app-only-access/)** (New!)
+*   ⭐ **[Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/)** *(Featured Deep-Dive)*
+*   **[Azure CLI Reference](./field-notes/01-azure-cli-reference/)** (New!)
+*   **[Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/)** (New!)
+*   **[Azure Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/)**
+*   **[Automating Google Workspace User Archival](./cloud-admin-tips/01-account-archiving-script/)**
+*   **[SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/)** (New!)
 
 ## 📂 Repository Structure
 
-### 📝 [Engineering Guides](./guides)
-Detailed implementation walkthroughs and build instructions.
+### 🛠️ [Engineering Handbook](./engineering-handbook)
+Detailed implementation walkthroughs and build instructions for cloud engineering.
 *   **Goal:** To provide clear, step-by-step implementation guides for complex cloud scenarios. These aren't just opinions; they are reproducible build instructions.
 *   **Key Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, and Zero Trust Networking.
 
-### 🛠️ [Engineer Handbook](./engineer-handbook)
-A collection of deep-dive architectural patterns, CLI cheat sheets, and development standards.
+### 📋 [Field Notes](./field-notes)
+Quick reference guides, CLI commands, and architectural deep-dives from the field.
 *   **Focus:** Infrastructure as Code, Security implementation, and System Design.
-*   **Key Topics:** Azure CLI, Identity Management, and PowerShell.
+*   **Key Topics:** Azure CLI, PowerShell, Hybrid DNS Resolution, and Azure Topology Visualization.
 
-### 📚 [Multi-Part Series](./series)
-In-depth, comprehensive series on complex Azure topics.
-*   **Focus:** End-to-end implementation guides for enterprise-grade solutions.
+### 💭 [Blog](./blog)
+In-depth series and personal insights on complex Azure topics.
+*   **Focus:** End-to-end implementation guides for enterprise-grade solutions and lessons learned.
 *   **Current Series:** 
-    *   [Building Azure Landing Zones](./series/azure-landing-zone/) - 4-part series on enterprise Azure foundations
-    *   [Disaster Recovery in Azure](./series/disaster-recovery/) - 3-part series on building resilient infrastructure
+    *   [Building Azure Landing Zones](./blog/azure-landing-zone/) - 4-part series on enterprise Azure foundations
+    *   [Disaster Recovery in Azure](./blog/disaster-recovery/) - 3-part series on building resilient infrastructure
 
-### 📋 [Admin Handbook](./admin-handbook)
-Operational guides and reference material for SaaS platform administration.
-*   **Focus:** Tenant management, user lifecycle, and compliance.
+### 📦 [Cloud Admin Tips](./cloud-admin-tips)
+Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
+*   **Focus:** Tenant management, user lifecycle, and compliance from my sysadmin days.
 *   **Key Topics:** Google Workspace (GAM7), Microsoft 365, and SharePoint App-Only Access.
 
 ---

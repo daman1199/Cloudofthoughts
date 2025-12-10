@@ -1,10 +1,10 @@
 ---
-layout: handbook-index
-title: "Admin Handbook"
-permalink: /admin-handbook/
+layout: page
+title: "Cloud Admin Tips"
+permalink: /cloud-admin-tips/
 ---
 
-Operational guides and reference material for SaaS platform administration.
+Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
 
 ## Google Workspace
 

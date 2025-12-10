@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Engineering Guides"
-permalink: /guides/
+title: "Engineering Handbook"
+permalink: /engineering-handbook/
 ---
 
-Detailed implementation guides and hands-on tutorials for Azure and Cloud Infrastructure.
+Detailed implementation walkthroughs and build instructions for cloud engineering.rials for Azure and Cloud Infrastructure.
 
 ## Available Guides
 

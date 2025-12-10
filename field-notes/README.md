@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Engineer Handbook"
-permalink: /engineer-handbook/
+title: "Field Notes"
+permalink: /field-notes/
 ---
 
-A collection of technical references, architectural patterns, and deep-dive guides for Azure infrastructure.
+Quick reference guides, CLI commands, and architectural deep-dives from the field.
 
 ## Quick References
 
