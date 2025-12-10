@@ -4,7 +4,7 @@ I'm a cloud engineer who—figuratively and literally—spends most of my days l
 
 Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
 
-## � Who This Is For
+## 👋 Who This Is For
 
 This repository is for:
 - **Cloud Engineers** building secure Azure infrastructure
@@ -14,7 +14,7 @@ This repository is for:
 
 If you've ever Googled "Azure private endpoint DNS not working" at 2 AM, you're in the right place.
 
-## �🚀 Recent Updates
+## 🚀 Recent Updates
 
 | Guide | Type | What You'll Learn |
 |-------|------|-------------------|
