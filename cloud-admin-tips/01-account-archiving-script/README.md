@@ -1,11 +1,12 @@
 ---
 layout: page
 title: "Automating Google Workspace User Archival with GAM"
-permalink: /admin-handbook/01-account-archiving-script/
+permalink: /cloud-admin-tips/01-account-archiving-script/
 tags: [google-workspace, admin, gam, powershell, automation]
 status: published
 type: handbook
 date: 2025-12-08
+summary: "A PowerShell automation script that handles the full lifecycle of Google Workspace user offboarding using GAM."
 ---
 
 *A PowerShell automation script that handles the full lifecycle of Google Workspace user offboarding using GAM.*

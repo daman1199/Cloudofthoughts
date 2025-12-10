@@ -8,6 +8,7 @@ date: 2025-12-05
 tags: ["sharepoint", "entra-id", "azure-ad", "powershell", "automation", "security"]
 author: "Daman Dhaliwal"
 description: "Configuring certificate-based authentication for automated SharePoint operations using Microsoft Entra ID App-Only access."
+summary: "Configuring certificate-based authentication for automated SharePoint operations."
 ---
 
 *Configuring certificate-based authentication for automated SharePoint operations.*
