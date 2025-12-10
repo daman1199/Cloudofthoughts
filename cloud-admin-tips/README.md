@@ -18,4 +18,4 @@ Configuring certificate-based authentication for automated SharePoint operations
 
 ---
 
-[← Back to Home](../README.md)
+[← Back to Home](/)

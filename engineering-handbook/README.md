@@ -19,4 +19,4 @@ Securing Kubernetes workloads by removing public endpoints and utilizing interna
 
 ---
 
-[← Back to Home](../README.md)
+[← Back to Home](/)

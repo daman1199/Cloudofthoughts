@@ -21,4 +21,4 @@ A comprehensive guide to configuring hybrid DNS resolution using Azure Private D
 
 ---
 
-[← Back to Home](../README.md)
+[← Back to Home](/)

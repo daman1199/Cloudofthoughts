@@ -10,4 +10,4 @@ In-depth series and personal insights on cloud engineering. Each series provides
 
 ---
 
-[← Back to Home](../README.md)
+[← Back to Home](/)
