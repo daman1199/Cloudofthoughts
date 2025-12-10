@@ -4,13 +4,38 @@ I'm a cloud engineer who—figuratively and literally—spends most of my days l
 
 Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
 
-## 🚀 Recent Updates
-*   ⭐ **[Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/)** *(Featured Deep-Dive)*
-*   **[Azure CLI Reference](./field-notes/01-azure-cli-reference/)** (New!)
-*   **[Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/)** (New!)
-*   **[Azure Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/)**
-*   **[Automating Google Workspace User Archival](./cloud-admin-tips/01-account-archiving-script/)**
-*   **[SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/)** (New!)
+## � Who This Is For
+
+This repository is for:
+- **Cloud Engineers** building secure Azure infrastructure
+- **DevOps practitioners** transitioning to Infrastructure as Code
+- **SysAdmins** moving from on-prem to cloud
+- **Anyone** who's tired of clicking through Azure Portal and wants to automate everything
+
+If you've ever Googled "Azure private endpoint DNS not working" at 2 AM, you're in the right place.
+
+## �🚀 Recent Updates
+
+| Guide | Type | What You'll Learn |
+|-------|------|-------------------|
+| ⭐ [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) | Deep-Dive | Zero Trust Kubernetes with no public endpoints |
+| [Azure CLI Reference](./field-notes/01-azure-cli-reference/) | Quick Ref | Essential commands for daily infrastructure work |
+| [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/) | Quick Ref | PowerShell for Azure resource management |
+| [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) | Architecture | Connect on-prem to Azure Private Endpoints |
+| [SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/) | Automation | Certificate-based auth for scripts |
+| [Automating User Archival](./cloud-admin-tips/01-account-archiving-script/) | Automation | Google Workspace offboarding with GAM |
+
+---
+
+## 🎯 Start Here
+
+**New to Azure?** Start with [Field Notes](./field-notes) for quick CLI references.
+
+**Building production infrastructure?** Check out the [Engineering Handbook](./engineering-handbook) for step-by-step guides.
+
+**Migrating from ClickOps?** The [Terraform Series](./engineering-handbook/07-azure-terraform-series/) will change your life.
+
+**Just browsing?** The [Private AKS guide](./engineering-handbook/01-deploying-private-aks/) is my most popular post.
 
 ## 📂 Repository Structure
 
