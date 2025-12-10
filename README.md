@@ -27,9 +27,7 @@ Quick reference guides, CLI commands, and architectural deep-dives from the fiel
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
 *   **Focus:** Stories, challenges, and thought pieces that go beyond technical guides.
-*   **Current Series (Coming Soon):** 
-    *   [Building Azure Landing Zones](./insights/azure-landing-zone/) - 4-part series on enterprise Azure foundations
-    *   [Disaster Recovery in Azure](./insights/disaster-recovery/) - 3-part series on building resilient infrastructure
+*   **Topics:** Production incidents, architecture decisions, career growth, and industry trends.
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
