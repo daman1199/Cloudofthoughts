@@ -24,12 +24,12 @@ Quick reference guides, CLI commands, and architectural deep-dives from the fiel
 *   **Focus:** Infrastructure as Code, Security implementation, and System Design.
 *   **Key Topics:** Azure CLI, PowerShell, Hybrid DNS Resolution, and Azure Topology Visualization.
 
-### 💭 [Blog](./blog)
-In-depth series and personal insights on complex Azure topics.
-*   **Focus:** End-to-end implementation guides for enterprise-grade solutions and lessons learned.
-*   **Current Series:** 
-    *   [Building Azure Landing Zones](./blog/azure-landing-zone/) - 4-part series on enterprise Azure foundations
-    *   [Disaster Recovery in Azure](./blog/disaster-recovery/) - 3-part series on building resilient infrastructure
+### 💭 [Insights](./insights)
+Personal reflections and lessons learned from cloud engineering work.
+*   **Focus:** Stories, challenges, and thought pieces that go beyond technical guides.
+*   **Current Series (Coming Soon):** 
+    *   [Building Azure Landing Zones](./insights/azure-landing-zone/) - 4-part series on enterprise Azure foundations
+    *   [Disaster Recovery in Azure](./insights/disaster-recovery/) - 3-part series on building resilient infrastructure
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
