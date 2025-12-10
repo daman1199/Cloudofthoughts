@@ -1,5 +1,7 @@
 # Daman's Technical Portfolio
 
+> **🌐 Best viewed at [ddhaliwal.me](https://ddhaliwal.me)** - This is the source repository. For the best reading experience with proper formatting and navigation, visit my live site.
+
 I'm a cloud engineer who—figuratively and literally—spends most of my days looking at clouds. A Queens native and **Baruch College (Zicklin School of Business)** alum, I use this repository as a central **hub** for my technical work. 
 
 Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
