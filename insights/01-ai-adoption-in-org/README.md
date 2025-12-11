@@ -11,7 +11,7 @@ tags:
 status: published
 type: insight
 date: 2025-12-11
-summary: "Lessons from deploying a RAG-based AI assistant in a financial institution—from executive buy-in to 20% adoption in month one."
+summary: "Lessons from deploying a RAG-based AI assistant in a financial institution."
 ---
 
 *Reflections on deploying an internal AI solution in a financial institution.*
