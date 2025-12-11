@@ -222,7 +222,7 @@ New-AzResourceLock -LockName "<lock-name>" -LockLevel CanNotDelete `
 ```powershell
 # Assign a built-in policy (e.g., Require Tags) to a Resource Group
 $definition = Get-AzPolicyDefinition | Where-Object { $_.DisplayName -eq 'Require a tag and its value on resources' }
-
+```
 
 ## Key Vault & Secrets
 
