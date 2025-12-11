@@ -13,16 +13,16 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 | Date | Post | Category | What You'll Learn |
 |------|------|----------|-------------------|
 | Dec 2025 | [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) | Insights | Deploying AI in a financial institution (personal reflections) |
+| Dec 2025 | [Exchange Online PowerShell Guide](./cloud-admin-tips/02-exchange-online-powershell/) | Cloud Admin | Essential commands for managing Exchange Online |
 | Dec 2025 | [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) | Field Notes | Connect on-prem to Azure Private Endpoints |
-| Dec 2025 | [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/) | Field Notes | PowerShell for Azure resource management |
 
 ---
 
 ## ⭐ Popular Posts
 
 - 🏆 [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) - Zero Trust Kubernetes with no public endpoints
--  [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) - AI adoption in financial services
-- 🔥 [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) - Essential for hybrid cloud setups
+- 💭 [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) - AI adoption in financial services
+- � [Azure CLI Reference](./field-notes/01-azure-cli-reference/) - Essential commands for daily infrastructure work
 
 ---
 

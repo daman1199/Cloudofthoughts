@@ -13,6 +13,9 @@ A comprehensive PowerShell script using GAM to automate the entire user offboard
 
 ## Microsoft 365
 
+### [Exchange Online PowerShell Guide](./02-exchange-online-powershell/)
+Essential commands and scripts for managing Exchange Online - mailboxes, permissions, distribution groups, room resources, and reporting.
+
 ### [SharePoint App-Only Access](./01-sharepoint-app-only-access/)
 Configuring certificate-based authentication for automated SharePoint operations using Entra ID.
 
