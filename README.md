@@ -2,67 +2,72 @@
 
 > **🌐 Best viewed at [ddhaliwal.me](https://ddhaliwal.me)** - This is the source repository. For the best reading experience with proper formatting and navigation, visit my live site.
 
-I'm a cloud engineer who—figuratively and literally—spends most of my days looking at clouds. A Queens native and **Baruch College (Zicklin School of Business)** alum, I use this repository as a central **hub** for my technical work. 
+I'm a cloud engineer who—figuratively and literally—spends most of my days looking at clouds. A Queens native and **Baruch College (Zicklin School of Business)** alum, I build secure Azure infrastructure for financial services.
 
-Here you'll find my personal Azure notes, real-world experiences, scripts, ideas, advice, and shortcuts.
+Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts—focused on security, private networking, and infrastructure that actually works in production.
 
-## 👋 Who This Is For
+---
 
-This repository is for:
-- **Cloud Engineers** building secure Azure infrastructure
-- **DevOps practitioners** transitioning to Infrastructure as Code
-- **SysAdmins** moving from on-prem to cloud
-- **Anyone** who's tired of clicking through Azure Portal and wants to automate everything
+## 🆕 Latest Posts
 
-If you've ever Googled "Azure private endpoint DNS not working" at 2 AM, you're in the right place.
+| Date | Post | Category | What You'll Learn |
+|------|------|----------|-------------------|
+| Dec 2025 | [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) | Insights | Deploying AI in a financial institution (personal reflections) |
+| Dec 2024 | [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) | Field Notes | Connect on-prem to Azure Private Endpoints |
+| Nov 2024 | [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/) | Field Notes | PowerShell for Azure resource management |
 
-## 🚀 Recent Updates
+---
 
-| Guide | Type | What You'll Learn |
-|-------|------|-------------------|
-| ⭐ [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) | Deep-Dive | Zero Trust Kubernetes with no public endpoints |
-| [Azure CLI Reference](./field-notes/01-azure-cli-reference/) | Quick Ref | Essential commands for daily infrastructure work |
-| [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/) | Quick Ref | PowerShell for Azure resource management |
-| [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) | Architecture | Connect on-prem to Azure Private Endpoints |
-| [SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/) | Automation | Certificate-based auth for scripts |
-| [Automating User Archival](./cloud-admin-tips/01-account-archiving-script/) | Automation | Google Workspace offboarding with GAM |
+## ⭐ Popular Posts
+
+- 🏆 [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) - Zero Trust Kubernetes with no public endpoints
+- � [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) - AI adoption in financial services
+- �🔥 [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) - Essential for hybrid cloud setups
 
 ---
 
 ## 🎯 Start Here
 
-**New to Azure?** Start with [Field Notes](./field-notes) for quick CLI references.
+**New to Azure?** → [Field Notes](./field-notes) for quick CLI references
 
-**Building production infrastructure?** Check out the [Engineering Handbook](./engineering-handbook) for step-by-step guides.
+**Building production infrastructure?** → [Engineering Handbook](./engineering-handbook) for step-by-step guides
 
-**Migrating from ClickOps?** The [Terraform Series](./engineering-handbook/07-azure-terraform-series/) will change your life.
+**Just browsing?** → The [Private AKS guide](./engineering-handbook/01-deploying-private-aks/) is my most popular post
 
-**Just browsing?** The [Private AKS guide](./engineering-handbook/01-deploying-private-aks/) is my most popular post.
+---
 
-## 📂 Repository Structure
+## 📂 Browse by Topic
 
 ### 🛠️ [Engineering Handbook](./engineering-handbook)
 Detailed implementation walkthroughs and build instructions for cloud engineering.
-*   **Goal:** To provide clear, step-by-step implementation guides for complex cloud scenarios. These aren't just opinions; they are reproducible build instructions.
-*   **Key Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, and Zero Trust Networking.
+- **Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, Zero Trust Networking
+- **Level:** Intermediate to Advanced
 
 ### 📋 [Field Notes](./field-notes)
 Quick reference guides, CLI commands, and architectural deep-dives from the field.
-*   **Focus:** Infrastructure as Code, Security implementation, and System Design.
-*   **Key Topics:** Azure CLI, PowerShell, Hybrid DNS Resolution, and Azure Topology Visualization.
+- **Topics:** Azure CLI, PowerShell, Hybrid DNS Resolution, Terraform
+- **Level:** All levels
 
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
-*   **Focus:** Stories, challenges, and thought pieces that go beyond technical guides.
-*   **Topics:** Production incidents, architecture decisions, career growth, and industry trends.
+- **Topics:** AI adoption, architecture decisions, production incidents, career growth
+- **Level:** All levels
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
-*   **Focus:** Tenant management, user lifecycle, and compliance from my sysadmin days.
-*   **Key Topics:** Google Workspace (GAM7), Microsoft 365, and SharePoint App-Only Access.
+- **Topics:** Google Workspace (GAM7), Microsoft 365, SharePoint App-Only Access
+- **Level:** Beginner to Intermediate
+
+---
+
+## 🚧 Coming Soon
+
+- Private AI Foundry deployment guides
+- **ClickOps to DevOps:** Terraform series for Azure
+- Disaster recovery patterns
 
 ---
 
 ## Connect
-*   **Live Blog:** [ddhaliwal.me](https://ddhaliwal.me)
-*   **LinkedIn:** [Daman Dhaliwal](https://www.linkedin.com/in/damanpreet-d/)
+- **Live Blog:** [ddhaliwal.me](https://ddhaliwal.me)
+- **LinkedIn:** [Daman Dhaliwal](https://www.linkedin.com/in/damanpreet-d/)

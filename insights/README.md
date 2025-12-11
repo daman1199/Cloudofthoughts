@@ -6,13 +6,14 @@ permalink: /insights/
 
 Personal reflections, lessons learned, and insights from cloud engineering work. This is where I share stories, challenges, and thought pieces that go beyond step-by-step guides.
 
-## Coming Soon
+## Posts
 
-I'll be sharing insights and experiences here as they develop. Topics will include:
-- Lessons learned from production incidents
-- Cloud architecture decision-making
-- Career growth and learning strategies
-- Industry trends and observations
+### [The Year We Taught Our Knowledge Base to Talk Back](./01-ai-adoption-in-org/)
+*Published: December 2025*
+
+Reflections on deploying a RAG-based AI assistant in a financial institution. From a cold morning at the Microsoft AI Tour to 20% employee adoption in month one—lessons on executive buy-in, user collaboration, infrastructure security, and roadblocks you'll actually face.
+
+**Key Topics:** AI adoption, Microsoft Foundry, secure infrastructure, financial services compliance, change management
 
 ---
 
