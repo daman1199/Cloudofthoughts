@@ -4,7 +4,7 @@ title: "Engineering Handbook"
 permalink: /engineering-handbook/
 ---
 
-Detailed implementation walkthroughs and build instructions for cloud engineering.rials for Azure and Cloud Infrastructure.
+Detailed implementation walkthroughs and build instructions for Azure and Cloud Infrastructure.
 
 ## Available Guides
 
@@ -12,10 +12,10 @@ Detailed implementation walkthroughs and build instructions for cloud engineerin
 Securing Kubernetes workloads by removing public endpoints and utilizing internal load balancers.
 
 ## Coming Soon
-*   Secure multi-tier web applications
-*   Azure Container Registry integration
-*   Azure AI Foundry with Private Endpoints
-*   Zero Trust Networking
+*   Secure multi-tier App Services
+*   Pushing from a private Container Registry to Web App
+*   A multi-series Terraform guide on building confidence to move from ClickOps to IaC
+*   
 
 ---
 
