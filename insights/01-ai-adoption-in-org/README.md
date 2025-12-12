@@ -16,6 +16,8 @@ summary: "Lessons from deploying a RAG-based AI assistant in a financial institu
 
 *Reflections on deploying an internal AI solution in a financial institution.*
 
+![Javits Center](images/IMG_2070.jpeg)
+
 | Date | Category |
 |------|----------|
 | 2025-12-11 | Insights / AI |
@@ -26,9 +28,10 @@ summary: "Lessons from deploying a RAG-based AI assistant in a financial institu
 
 At the beginning of this year, on a brutally windy NYC winter morning, I walked into the Javits Center to attend the Microsoft AI Tour. I had one question that kept evading me: **How do organizations successfully implement an in-house AI solution that actually gets adopted?**
 
-Most of the keynote presentations felt like YouTube ads we rush to skip. But one breakout session stuck with me—a panel with representatives from Nasdaq and Morgan Stanley discussing secure AI in finance. Their biggest takeaway? **Culture matters.** Executives have to believe in what they're building and champion it the whole way. The moment that support wavers, the project starts to die.
 
-That conversation stayed with me. Not because it was revolutionary, but because I'd get to test it firsthand over the next twelve months.
+Most of the keynote presentations felt like YouTube ads we rush to skip. But one breakout session stuck with me—a panel with representatives from Nasdaq and Morgan Stanley discussing secure AI in finance. Their biggest takeaway? **Culture matters.** Executives have to believe in what they're building and champion it the whole way. The moment that support wavers, the project starts to die. Developers and engineers can only go so far by themselves. 
+
+That conversation stayed with me. Not because it was revolutionary, but because I saw it firsthand over the next twelve months.
 
 ---
 
@@ -98,7 +101,7 @@ Roadblocks are inevitable. Ours included:
 
 ## Where We Are Now
 
-The app went into production last month. By the end of the year, **20% of employees—mostly frontline members—have adopted the tool.**
+The app went into production last month. By the end of the year, **20% of employees, mostly frontline members, have adopted the tool.**
 
 For a first-generation AI solution in a financial institution, that's a solid start. The foundation is set—secure infrastructure, proven adoption, and organizational buy-in to keep going.
 
