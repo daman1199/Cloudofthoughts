@@ -41,22 +41,19 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 ### 🛠️ [Engineering Handbook](./engineering-handbook)
 Detailed implementation walkthroughs and build instructions for cloud engineering.
 - **Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, Zero Trust Networking
-- **Level:** Intermediate to Advanced
 
 ### 📋 [Field Notes](./field-notes)
 Quick reference guides, CLI commands, and architectural deep-dives from the field.
 - **Topics:** Azure CLI, PowerShell, Hybrid DNS Resolution, Terraform
-- **Level:** All levels
 
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
 - **Topics:** AI adoption, architecture decisions, production incidents, career growth
-- **Level:** All levels
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
 - **Topics:** Google Workspace (GAM7), Microsoft 365, SharePoint App-Only Access
-- **Level:** Beginner to Intermediate
+
 
 ---
 
