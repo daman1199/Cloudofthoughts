@@ -1,4 +1,4 @@
-# Daman's Technical Portfolio
+# Daman's Cloud of Thoughts
 
 > **🌐 Best viewed at [ddhaliwal.me](https://ddhaliwal.me)** - This is the source repository. For the best reading experience with proper formatting and navigation, visit my live site.
 
