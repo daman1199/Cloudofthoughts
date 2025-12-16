@@ -11,7 +11,7 @@ Personal reflections, lessons learned, and insights from cloud engineering work.
 ### [The Year We Taught Our Knowledge Base to Talk Back](./01-ai-adoption-in-org/)
 *Published: December 2025*
 
-Reflections on deploying a RAG-based AI assistant in a financial institution. From a cold morning at the Microsoft AI Tour to 20% employee adoption in month one—lessons on executive buy-in, user collaboration, infrastructure security, and roadblocks you'll actually face.
+Follow me on my journey of navigating the buzzword of the century and my experience of bringing it to reality. 
 
 **Key Topics:** AI adoption, Microsoft Foundry, secure infrastructure, financial services compliance, change management
 
