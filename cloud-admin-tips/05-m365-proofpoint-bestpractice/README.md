@@ -373,7 +373,7 @@ This format covers:
 
 ### Example Configuration
 
-![Proofpoint Phishing Simulation Advanced Delivery Configuration](./images/proofpoint%20phishing%20whitelist.jpg)
+![Proofpoint Phishing Simulation Advanced Delivery Configuration](./images/proofpoint-phishing-whitelist.jpg)
 *Example showing sending domains, IPs (including Proofpoint US PhishSim IPs), and simulation URLs with wildcard formatting*
 
 ### Additional Considerations
