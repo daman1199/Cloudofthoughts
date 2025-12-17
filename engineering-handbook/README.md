@@ -13,9 +13,8 @@ Securing Kubernetes workloads by removing public endpoints and utilizing interna
 
 ## Coming Soon
 *   Secure multi-tier App Services
-*   Pushing from a private Container Registry to Web App
+*   Using Azure Container Registry with AKS and App Services
 *   A multi-series Terraform guide on building confidence to move from ClickOps to IaC
-*   
 
 ---
 
