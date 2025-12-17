@@ -19,6 +19,11 @@ PowerShell commands for Azure resource management, including Entra ID, RBAC, Key
 ### [Hybrid DNS Resolution](./03-hybrid-dns-resolution/)
 A comprehensive guide to configuring hybrid DNS resolution using Azure Private DNS Resolver, including private endpoint flows and on-prem forwarding.
 
+## Documentation & Operations
+
+### [Visualizing Azure: AzViz & AzGovViz](./04-visualizing-azure-topology/)
+Two community-built PowerShell tools that automate Azure topology diagrams and governance reporting—no more manual Visio diagrams or hunting through the portal.
+
 ---
 
 [← Back to Home](/)
