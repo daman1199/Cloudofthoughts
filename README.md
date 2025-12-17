@@ -41,19 +41,25 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 
 ### 🛠️ [Engineering Handbook](./engineering-handbook)
 Detailed implementation walkthroughs and build instructions for cloud engineering.
-- **Topics:** Private AKS, Secure Web Apps, Private ACR, Azure AI Foundry, Zero Trust Networking
+- [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/)
 
 ### 📋 [Field Notes](./field-notes)
 Quick reference guides, CLI commands, and architectural deep-dives from the field.
-- **Topics:** Azure CLI, PowerShell, Hybrid DNS Resolution, Terraform
+- [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/)
+- [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/)
+- [Azure CLI Reference](./field-notes/01-azure-cli-reference/)
+- [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/)
 
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
-- **Topics:** AI adoption, architecture decisions, production incidents, career growth
+- [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/)
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
-- **Topics:** Google Workspace (GAM7), Microsoft 365, SharePoint App-Only Access
+- [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/)
+- [Exchange Online PowerShell Guide](./cloud-admin-tips/02-exchange-online-powershell/)
+- [SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/)
+- [Automating User Archival with GAM](./cloud-admin-tips/01-account-archiving-script/)
 
 
 ---
