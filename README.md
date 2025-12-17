@@ -58,7 +58,7 @@ Personal reflections and lessons learned from cloud engineering work.
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
 - [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/)
 - [Exchange Online PowerShell Guide](./cloud-admin-tips/02-exchange-online-powershell/)
-- [SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/)
+- [Entra SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/)
 - [Automating User Archival with GAM](./cloud-admin-tips/01-account-archiving-script/)
 
 
