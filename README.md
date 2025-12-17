@@ -12,10 +12,10 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcutsâ
 
 | Date | Post | Category | What You'll Learn |
 |------|------|----------|-------------------|
+| Dec 2025 | [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/) | Cloud Admin | Secure mail flow configuration and phishing simulation setup |
 | Dec 2025 | [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/) | Field Notes | Automate topology diagrams and governance reports |
 | Dec 2025 | [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) | Insights | Deploying AI in a financial institution (personal reflections) |
 | Dec 2025 | [Exchange Online PowerShell Guide](./cloud-admin-tips/02-exchange-online-powershell/) | Cloud Admin | Essential commands for managing Exchange Online |
-| Dec 2025 | [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) | Field Notes | Connect on-prem to Azure Private Endpoints |
 
 ---
 
