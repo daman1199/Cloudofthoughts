@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Part 1 - Terraform with Azure CLI
-permalink: /engineering-handbook/01-terraform-with-azure-cli/
+permalink: /engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/
 tags: [azure, terraform, cli, iac]
 status: published
 type: guide
