@@ -21,10 +21,9 @@ Transitioning from cloud admin to engineer? Building Azure infrastructure for th
 
 ### 🔒 Security & Networking
 
-| Guide | Time | Level |
-|-------|------|-------|
-| **[Deploying a Private AKS Cluster](/engineering-handbook/01-deploying-private-aks/readme/)** | 45 min | Intermediate |
-| Zero Trust Kubernetes with private endpoints and internal load balancers |||
+#### [Deploying a Private AKS Cluster](./01-deploying-private-aks/)
+**45 min • Intermediate**  
+Zero Trust Kubernetes with private endpoints and internal load balancers.
 
 ---
 

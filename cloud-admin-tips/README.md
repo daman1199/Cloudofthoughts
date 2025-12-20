@@ -19,21 +19,21 @@ M365 admin by title or cloud engineer who somehow became the "Microsoft person"?
 
 ### 🟦 Microsoft 365
 
-| Guide | What's Inside |
-|-------|---------------|
-| **[Exchange Online PowerShell Guide](/cloud-admin-tips/02-exchange-online-powershell/readme/)** | Commands, connection methods, useful scripts |
-| What you actually need for daily Exchange admin work ||
-| **[M365 & Proofpoint Best Practices](/cloud-admin-tips/05-m365-proofpoint-bestpractice/readme/)** | Configuring coexistence properly |
-| Mail flow, connectors, phishing sims, preventing bypass ||
-| **[SharePoint App-Only Access](/cloud-admin-tips/01-sharepoint-app-only-access/readme/)** | Certificate-based auth for automation |
-| When you need unattended scripts to access SharePoint ||
+#### [Exchange Online PowerShell Guide](./02-exchange-online-powershell/)
+Commands, connection methods, and useful scripts. What you actually need for daily Exchange admin work.
+
+#### [M365 & Proofpoint Best Practices](./05-m365-proofpoint-bestpractice/)
+Configuring coexistence properly. Mail flow, connectors, phishing sims, and preventing bypass.
+
+#### [SharePoint App-Only Access](./01-sharepoint-app-only-access/)
+Certificate-based auth for automation to run unattended scripts against SharePoint.
+
+<br>
 
 ### 🔵 Google Workspace
 
-| Guide | What's Inside |
-|-------|---------------|
-| **[Automating User Archival with GAM](/cloud-admin-tips/01-account-archiving-script/readme/)** | Full offboarding automation with GAM |
-| Vault exports, data downloads, Shared Drive archival - the whole thing ||
+#### [Automating User Archival with GAM](./01-account-archiving-script/)
+Full offboarding automation with GAM. Vault exports, data downloads, Shared Drive archival - the whole thing.
 
 ---
 

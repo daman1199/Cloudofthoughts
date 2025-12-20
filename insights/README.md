@@ -15,17 +15,18 @@ Not step-by-step guides, but the context around them. Executive buy-in struggles
 
 ---
 
-## 📝 Posts
+## 📝 Recent Posts
 
-| Post | What It's About |
-|------|-----------------|
-| **[The Year We Taught Our Knowledge Base to Talk Back](/insights/01-ai-adoption-in-org/readme/)** | *Draft* |
-| Deploying RAG-based AI in a financial institution. From Microsoft AI Tour to 20% adoption in month one—the real story of what it takes. ||
-| **Topics:** AI adoption, Azure AI Foundry, secure infrastructure, financial compliance, change management  ||
+### [The Year We Taught Our Knowledge Base to Talk Back](./01-ai-adoption-in-org/)
+Deploying RAG-based AI in a financial institution. From Microsoft AI Tour to 20% adoption in month one—the real story of what it takes.
+
+**Topics:** AI adoption, Azure AI Foundry, secure infrastructure, financial compliance, change management
+
+<br>
 
 ---
 
-**Looking for step-by-step guides?** Head to the [Engineering Handbook](/engineering-handbook/readme/) for hands-on implementations.
+**Looking for step-by-step guides?** Head to the [Engineering Handbook](/engineering-handbook/) for hands-on implementations.
 
 ---
 

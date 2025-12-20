@@ -19,26 +19,25 @@ These are the notes I wish I had when I started. Less "official documentation," 
 
 ### ⚡ Quick References
 
-| Guide | What's Inside |
-|-------|---------------|
-| **[Azure CLI Reference](/field-notes/01-azure-cli-reference/readme/)** | Commands for daily work: AKS, networking, private endpoints |
-| Organized by service, copy-paste ready ||
-| **[Azure PowerShell Reference](/field-notes/02-azure-powershell-reference/readme/)** | PowerShell for Entra ID, RBAC, Key Vault, governance |
-| When you need PowerShell instead of CLI ||
+#### [Azure CLI Reference](./01-azure-cli-reference/)
+Commands for daily work: AKS, networking, private endpoints. Organized by service, copy-paste ready.
+
+#### [Azure PowerShell Reference](./02-azure-powershell-reference/)
+PowerShell for Entra ID, RBAC, Key Vault, and governance. Comprehensive command reference.
+
+<br>
 
 ### 🏗️ Architecture & Networking
 
-| Guide | What's Inside |
-|-------|---------------|
-| **[Hybrid DNS Resolution](/field-notes/03-hybrid-dns-resolution/readme/)** | Azure Private DNS Resolver for hybrid environments |
-| Private endpoints, on-prem forwarding, the whole flow ||
+#### [Hybrid DNS Resolution](./03-hybrid-dns-resolution/)
+Azure Private DNS Resolver for hybrid environments. Private endpoints, on-prem forwarding, and the whole resolution flow.
+
+<br>
 
 ### 🔧 Tools & Automation
 
-| Guide | What's Inside |
-|-------|---------------|
-| **[Visualizing Azure Topology](/field-notes/04-visualizing-azure-topology/readme/)** | AzViz & AzGovViz - automated diagrams & governance reports |
-| Stop making Visio diagrams manually ||
+#### [Visualizing Azure Topology](./04-visualizing-azure-topology/)
+AzViz & AzGovViz - automated diagrams & governance reports. Stop making Visio diagrams manually.
 
 ---
 
