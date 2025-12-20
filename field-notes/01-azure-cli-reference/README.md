@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-05
 summary: "A quick reference for Azure CLI commands I often use"
+ShowToc: true
 ---
 
 *A quick reference for Azure CLI commands I often use*

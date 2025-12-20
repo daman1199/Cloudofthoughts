@@ -13,6 +13,7 @@ status: published
 type: insight
 date: 2025-12-11
 summary: Lessons from deploying a RAG-based AI assistant in a financial institution.
+ShowToc: true
 ---
 
 *Reflections on deploying an internal AI solution in a financial institution.*

@@ -13,6 +13,7 @@ status: published
 type: guide
 date: 2025-12-01
 summary: "Securing Kubernetes workloads by removing public endpoints and utilizing internal load balancers."
+ShowToc: true
 ---
 
 *Securing Kubernetes workloads by removing public endpoints and utilizing internal load balancers.*

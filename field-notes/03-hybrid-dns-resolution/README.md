@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-05
 summary: "Understanding how Private Endpoints, Private DNS Zones, and the Azure Private DNS Resolver enable seamless hybrid connectivity."
+ShowToc: true
 ---
 
 *Understanding how Private Endpoints, Private DNS Zones, and the Azure Private DNS Resolver enable seamless hybrid connectivity.*

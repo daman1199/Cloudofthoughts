@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-17
 summary: "Best practices for configuring Microsoft 365 and Proofpoint coexistence, including mail flow rules, anti-spoofing, phishing simulation configuration, and defense-in-depth email security."
+ShowToc: true
 ---
 
 *Best practices for configuring Microsoft 365 and Proofpoint coexistence—transport rules, connectors, phishing simulations, and preventing direct delivery attacks.*
