@@ -12,7 +12,7 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 
 | Date     | Post                                                                                    | Category    | What You'll Learn                                                   |
 | -------- | --------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------- |
-| Dec 2025 | [ClickOps to Terraform - Part 1](/engineering-handbook/clickops-to-terraform/)          | Engineering | Start your Infrastructure as Code journey (Part 1 of 5-part series) |
+| Dec 2025 | [ClickOps to Terraform - Part 1](/engineering-handbook/01-terraform-with-azure-cli/) | Engineering | Start your Infrastructure as Code journey (Part 1 of 5-part series) |
 | Dec 2025 | [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/) | Cloud Admin | Secure mail flow configuration and phishing simulation setup        |
 | Dec 2025 | [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/)     | Field Notes | Automate topology diagrams and governance reports                   |
 | Dec 2025 | [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) | Insights    | Deploying AI in a financial institution (personal reflections)      |
@@ -22,7 +22,7 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 ## ⭐ Popular Posts
 
 - 🏆 [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) - Zero Trust Kubernetes with no public endpoints
-- 🚀 [ClickOps to Terraform Series](/engineering-handbook/clickops-to-terraform/) - Learn Infrastructure as Code from scratch
+- 🚀 [ClickOps to Terraform - Part 1](/engineering-handbook/01-terraform-with-azure-cli/) - Learn Infrastructure as Code from scratch
 - 💭 [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) - My personal experience with adopting AI in a Financial Institution 
 - 💻 [Azure CLI Reference](./field-notes/01-azure-cli-reference/) - Essential commands for daily infrastructure work
 

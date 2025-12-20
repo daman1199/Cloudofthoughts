@@ -1,16 +1,11 @@
 ---
 layout: page
-title: "Part 1: Terraform with Azure CLI"
-permalink: /engineering-handbook/terraform-with-azure-cli/
-tags:
-  - azure
-  - terraform
-  - cli
-  - iac
+title: Part 1 - Terraform with Azure CLI
+permalink: /engineering-handbook/01-terraform-with-azure-cli/
+tags: [azure, terraform, cli, iac]
 status: published
 type: guide
 date: 2025-12-20
-series_part: 1
 summary: "Learn the fundamentals of Terraform by running it locally with Azure CLI authentication."
 ShowToc: true
 ---
