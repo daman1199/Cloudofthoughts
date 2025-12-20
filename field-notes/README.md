@@ -5,16 +5,9 @@ permalink: /field-notes/
 ShowToc: true
 ---
 
-> **Quick references and deep dives from the field.** The commands I actually use, architectures that clicked after struggling with the docs, and tools that saved me hours.
-
-### 📊 What's Here
-**5 Guides** • **CLI Cheat Sheets** • **Architecture Patterns** • **Automation Tools**
-
-### 👋 Who This Is For
-These are the notes I wish I had when I started. Less "official documentation," more "here's what actually worked when I needed it at 3pm on a Tuesday."
+> **Quick references and deep dives.** The commands, architectures, and tools that I actually use in the field.
 
 ---
-
 
 ### ⚡ Quick References
 

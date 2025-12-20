@@ -5,17 +5,9 @@ permalink: /cloud-admin-tips/
 ShowToc: true
 ---
 
-> **M365 and Google Workspace admin survival guide.** Scripts, configurations, and fixes from years of managing SaaS platforms. The stuff that's not in the official docs but probably should be.
-
-### 📊 What's Here
-**5 Guides** • **PowerShell Scripts** • **M365 & Google Workspace** • **SaaS Admin**
-
-### 👋 Who This Is For
-M365 admin by title or cloud engineer who somehow became the "Microsoft person"? These are the solutions I built when clicking through the admin portal for the 50th time wasn't cutting it anymore.
+> **M365 and Google Workspace admin survival guide.** Scripts, configurations, and fixes from years of managing SaaS platforms.
 
 ---
-
-## 📖 Guides
 
 ### 🟦 Microsoft 365
 
