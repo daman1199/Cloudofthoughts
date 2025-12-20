@@ -9,11 +9,13 @@ Detailed implementation walkthroughs and build instructions for Azure and Cloud 
 
 ---
 
-### 🚀 Infrastructure as Code
+### 🚀 [ClickOps to Terraform Series](./series/terraform-essentials/)
 
-#### [ClickOps to Terraform Series](./series/terraform-essentials/)
-**5-part series • Beginner to Advanced**  
-Transition from manual portal work to automated, version-controlled infrastructure. Part 1 available now, new parts released weekly.
+#### [Part 1: Terraform with Azure CLI](/engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/)
+**1 hour • Beginner to Intermediate**  
+Learn the fundamentals of Terraform by running it locally with Azure CLI authentication. Part 1 of a 5-part series—new parts released weekly.
+
+
 
 ---
 
