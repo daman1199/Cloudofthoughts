@@ -5,7 +5,7 @@ permalink: /cloud-admin-tips/
 ShowToc: true
 ---
 
-> **M365 and Google Workspace admin survival guide.** Scripts, configurations, and fixes from years of managing SaaS platforms.
+Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
 
 ---
 

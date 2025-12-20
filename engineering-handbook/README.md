@@ -5,7 +5,7 @@ permalink: /engineering-handbook/
 ShowToc: true
 ---
 
-> **Cloud engineering guides built from real implementations.** No theory, just what actually works in production.
+Detailed implementation walkthroughs and build instructions for Azure and Cloud Infrastructure.
 
 ---
 

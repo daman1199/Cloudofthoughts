@@ -5,7 +5,7 @@ permalink: /insights/
 ShowToc: true
 ---
 
-> **Lessons from the field.** The messy reality behind successful projects—what worked, what didn't, and why.
+Lessons learned and thoughts on cloud engineering.
 
 ---
 

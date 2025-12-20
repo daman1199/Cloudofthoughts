@@ -5,7 +5,7 @@ permalink: /field-notes/
 ShowToc: true
 ---
 
-> **Quick references and deep dives.** The commands, architectures, and tools that I actually use in the field.
+Quick reference guides, CLI commands, and architectural deep-dives from the field.
 
 ---
 
