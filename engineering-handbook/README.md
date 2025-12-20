@@ -9,6 +9,14 @@ Detailed implementation walkthroughs and build instructions for Azure and Cloud 
 
 ---
 
+### 🚀 Infrastructure as Code
+
+#### [ClickOps to Terraform Series](./series/terraform-essentials/)
+**5-part series • Beginner to Advanced**  
+Transition from manual portal work to automated, version-controlled infrastructure. Part 1 available now, new parts released weekly.
+
+---
+
 ### 🔒 Security & Networking
 
 #### [Deploying a Private AKS Cluster](./01-deploying-private-aks/)
@@ -20,8 +28,8 @@ Zero Trust Kubernetes with private endpoints and internal load balancers.
 ## Coming Soon
 *   Secure multi-tier App Services
 *   Using Azure Container Registry with AKS and App Services
-*   A multi-series Terraform guide on building confidence to move from ClickOps to IaC
 
 ---
 
 [← Back to Home](/)
+
