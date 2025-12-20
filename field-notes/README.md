@@ -15,7 +15,6 @@ These are the notes I wish I had when I started. Less "official documentation," 
 
 ---
 
-## 📖 Guides
 
 ### ⚡ Quick References
 
