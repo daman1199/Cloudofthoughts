@@ -45,7 +45,7 @@ By the end of this series, you'll:
 
 ## Series Parts
 
-### [Part 1: Terraform with Azure CLI](./01-terraform-with-azure-cli/) ✅ **Available Now**
+### [Part 1: Terraform with Azure CLI](/engineering-handbook/terraform-with-azure-cli/) ✅ **Available Now**
 **Foundation: Running Terraform Locally**
 
 Start your IaC journey by running Terraform on your local machine. No pipelines, no complexity—just you, your terminal, and Azure. Learn the fundamentals of HCL syntax, authentication, and the Terraform workflow (`init`, `plan`, `apply`).
