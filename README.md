@@ -57,6 +57,7 @@ Quick reference guides, CLI commands, and architectural deep-dives from the fiel
 
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
+- [Fixing Azure OpenAI Connection Failures with Private Endpoints](./insights/02-azopenai-apiconnection-error/)
 - [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/)
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
