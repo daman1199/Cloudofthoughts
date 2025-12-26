@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-08
 summary: "A PowerShell automation script that handles the full lifecycle of Google Workspace user offboarding using GAM."
+ShowToc: true
 ---
 
 *A PowerShell automation script that handles the full lifecycle of Google Workspace user offboarding using GAM.*

@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-05
 summary: "A quick reference for Azure CLI commands I often use"
+ShowToc: true
 ---
 
 *A quick reference for Azure CLI commands I often use*
@@ -14,29 +15,6 @@ summary: "A quick reference for Azure CLI commands I often use"
 | Date | Category |
 |------|----------|
 | 2025-12-05 | Azure / CLI |
-
----
-
-## **Table of Contents**
-
-### **Getting Started**
-* [Installation](#installation)
-* [Azure Cloud Shell](#azure-cloud-shell-browser-based)
-* [Authentication](#authentication)
-
-### **Command Reference**
-* [Subscription Management](#subscription-management-the-basics)
-* [Resource Management (Resource Groups)](#resource-management-resource-groups)
-* [Management Groups](#management-groups)
-* [Entra ID (Formerly Azure AD)](#entra-id-formerly-azure-ad)
-* [Role Assignments (RBAC)](#role-assignments-rbac)
-* [Key Vault & Secrets](#key-vault--secrets)
-* [Virtual Machines (VMs)](#virtual-machines-vms)
-* [Networking](#networking)
-* [Storage](#storage)
-* [Kubernetes (AKS & Kubectl)](#kubernetes-aks--kubectl)
-* [App Service (Web Apps)](#app-service-web-apps)
-* [Private Networking & DNS](#private-networking--dns)
 
 ---
 

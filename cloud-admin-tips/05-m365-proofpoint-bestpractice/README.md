@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-17
 summary: "Best practices for configuring Microsoft 365 and Proofpoint coexistence, including mail flow rules, anti-spoofing, phishing simulation configuration, and defense-in-depth email security."
+ShowToc: true
 ---
 
 *Best practices for configuring Microsoft 365 and Proofpoint coexistence—transport rules, connectors, phishing simulations, and preventing direct delivery attacks.*
@@ -30,39 +31,6 @@ Microsoft 365 provides many email security tools natively. However, organization
 - **Security feature coexistence** — Disable or configure M365 features that conflict with Proofpoint
 
 > ⚠️ **Change Control:** Proofpoint recommends making changes during a well-planned change control window. M365 changes can take up to 30 minutes to propagate—sometimes several hours for all nodes.
-
----
-
-## Table of Contents
-
-### Inbound Configuration
-- [Configure Inbound Mail Flow](#configure-inbound-mail-flow)
-- [Create Inbound from Proofpoint Connector](#step-1--create-inbound-from-proofpoint-connector)
-- [Bypass EOP Spam Filtering](#step-2--exclude-proofpoint-from-eop-spam-module)
-- [Enable Enhanced Filtering](#step-3--enable-enhanced-filtering-optional)
-- [Bypass Safe Links Rewriting](#step-4--bypass-safe-links-url-rewriting)
-
-### Preventing Direct Delivery Attacks
-- [Why Direct Delivery Matters](#preventing-direct-delivery-attacks)
-- [Audit Direct Delivery](#step-1--create-direct-delivery-audit-rule)
-- [Method 6A: Reject Connector (Recommended)](#method-6a--exchange-online-reject-connector)
-- [Method 6B: Quarantine Transport Rule](#method-6b--quarantine-transport-rule)
-
-### Outbound Configuration
-- [Configure Outbound Mail Flow](#configure-outbound-mail-flow)
-- [Create Outbound to Proofpoint Connector](#step-1--create-outbound-to-proofpoint-connector)
-
-### Phishing Simulations
-- [Configuring Phishing Simulations](#configuring-phishing-simulations)
-- [Advanced Delivery Configuration](#configuration-steps)
-
-### Troubleshooting & Common Issues
-- [Direct Delivery Bypass Detection](#monitoring-for-direct-delivery)
-- [Authentication Failures](#authentication-failures-dmarcspfdkim)
-
-### Reference
-- [Security Features Compatibility Matrix](#security-features-compatibility-matrix)
-- [Resources](#resources)
 
 ---
 

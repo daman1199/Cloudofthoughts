@@ -7,6 +7,7 @@ status: published
 type: handbook
 date: 2025-12-05
 summary: "A quick reference for Azure Powershell Commands I use often"
+ShowToc: true
 ---
 
 *A quick reference for Azure Powershell Commands I use often*
@@ -14,28 +15,6 @@ summary: "A quick reference for Azure Powershell Commands I use often"
 | Date | Category |
 |------|----------|
 | 2025-12-05 | Azure / PowerShell |
-
----
-
-## **Table of Contents**
-
-### **Getting Started**
-* [Installation](#installation)
-* [Authentication](#authentication)
-* [Subscription Management](#subscription-management-the-basics)
-* [Resource Management](#resource-management)
-
-### **Command Reference**
-* [Entra ID (Formerly Azure AD)](#entra-id-formerly-azure-ad)
-* [Active Directory & Entra Sync](#active-directory--entra-sync)
-* [Role Assignments (RBAC)](#role-assignments-rbac)
-* [Key Vault & Secrets](#key-vault--secrets)
-* [Compute (Virtual Machines)](#compute-virtual-machines)
-* [Networking](#networking)
-* [Storage](#storage)
-* [Azure Policy & Governance](#azure-policy--governance)
-* [Monitoring](#monitoring)
-* [Azure Migrate](#azure-migrate)
 
 ---
 

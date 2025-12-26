@@ -7,6 +7,7 @@ status: published
 type: reference
 date: 2025-12-17
 summary: "Two community-built PowerShell tools that automate Azure topology diagrams and governance reporting—no more manual Visio diagrams or hunting through the portal."
+ShowToc: true
 ---
 
 *Two community-built PowerShell tools that automate Azure topology diagrams and governance reporting—no more manual Visio diagrams or hunting through the portal.*

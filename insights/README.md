@@ -2,23 +2,26 @@
 layout: page
 title: "Insights"
 permalink: /insights/
+ShowToc: true
 ---
 
-Personal reflections, lessons learned, and insights from cloud engineering work. This is where I share stories, challenges, and thought pieces that go beyond step-by-step guides.
+Lessons learned and thoughts on cloud engineering.
 
-## Posts
+---
 
 ### [The Year We Taught Our Knowledge Base to Talk Back](./01-ai-adoption-in-org/)
-*Published: December 22 2025*
+*Published: December 2025*
 
-Follow me on my journey of navigating the buzzword of the century and my experience of bringing it to reality. 
+Reflecting on my AI adoption journey in a financial institution, what I've learned navigating a rapidly evolving landscape, and the challenges of implementing AI in a regulated environment.
 
-**Key Topics:** AI adoption, Microsoft Foundry, secure infrastructure, financial services compliance, change management
+**Topics:** AI adoption, Azure AI Foundry, secure infrastructure, financial compliance, change management
 
----
-
-**Looking for implementation guides?** Check out the [Engineering Handbook](../engineering-handbook/) for step-by-step walkthroughs.
+<br>
 
 ---
 
-[← Back to Home](../)
+**Looking for step-by-step guides?** Head to the [Engineering Handbook](/engineering-handbook/) for hands-on implementations.
+
+---
+
+[← Back to Home](/)

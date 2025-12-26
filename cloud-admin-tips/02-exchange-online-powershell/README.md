@@ -8,6 +8,7 @@ status: published
 type: handbook
 date: 2025-12-11
 summary: "Essential commands and scripts for managing Exchange Online efficiently via PowerShell."
+ShowToc: true
 ---
 
 *Essential commands, connection methods, and scripts for managing Exchange Online efficiently.*
@@ -15,22 +16,6 @@ summary: "Essential commands and scripts for managing Exchange Online efficientl
 | Date | Category |
 |------|----------|
 | 2025-12-11 | Exchange / PowerShell |
-
----
-
-## **Table of Contents**
-
-### **Getting Started**
-* [Installation](#installation)
-* [Connecting to Exchange Online](#connecting-to-exchange-online)
-
-### **Command Reference**
-* [Mailbox Management](#mailbox-management)
-* [Permissions Management](#permissions-management)
-* [Distribution Groups](#distribution-groups)
-* [Resource & Room Management](#resource--room-management)
-* [Mail Flow & Transport Rules](#mail-flow--transport-rules)
-* [Reporting & Auditing](#reporting--auditing)
 
 ---
 
@@ -75,6 +60,10 @@ Get-ConnectionInformation
 ---
 
 ## Mailbox Management
+
+<details>
+
+<summary><strong>📬 View all mailbox commands</strong> (Create, modify, statistics, auto-reply)</summary>
 
 ### 1. View Mailboxes
 ```powershell
@@ -141,9 +130,15 @@ Get-MailboxAutoReplyConfiguration -Identity user@domain.com
 Set-MailboxAutoReplyConfiguration -Identity user@domain.com -AutoReplyState Disabled
 ```
 
+</details>
+
 ---
 
 ## Permissions Management
+
+<details>
+
+<summary><strong>🔐 View all permission commands</strong> (Calendar, Full Access, Send-As, Send on Behalf)</summary>
 
 ### 1. Calendar Delegation (Folder Permissions)
 Grant specific rights to another user's calendar or inbox folder.
@@ -202,9 +197,15 @@ Set-Mailbox -Identity shared@domain.com -GrantSendOnBehalfTo user@domain.com
 Get-Mailbox -Identity shared@domain.com | Select-Object GrantSendOnBehalfTo
 ```
 
+</details>
+
 ---
 
 ## Distribution Groups
+
+<details>
+
+<summary><strong>👥 View all distribution group commands</strong> (Create, modify, manage membership)</summary>
 
 ### 1. Create Distribution Groups
 ```powershell
@@ -262,9 +263,15 @@ Import-Csv "C:\members.csv" | ForEach-Object {
 }
 ```
 
+</details>
+
 ---
 
 ## Resource & Room Management
+
+<details>
+
+<summary><strong>🏢 View all room & resource commands</strong> (Room mailboxes, booking policies, Places metadata)</summary>
 
 ### 1. Create a Room Mailbox
 ```powershell
@@ -313,9 +320,15 @@ Set-Place -Identity "ConfRoom-4thFl-Large" `
 ```
 *Note: It may take up to 24 hours for these properties to reflect in the Outlook Room Finder.*
 
+</details>
+
 ---
 
 ## Mail Flow & Transport Rules
+
+<details>
+
+<summary><strong>📨 View all mail flow commands</strong> (Transport rules, message trace)</summary>
 
 ### 1. View Transport Rules
 ```powershell
@@ -355,9 +368,15 @@ Get-MessageTrace -StartDate (Get-Date).AddDays(-2) -EndDate (Get-Date) |
     Export-Csv -Path "C:\MessageTrace.csv" -NoTypeInformation
 ```
 
+</details>
+
 ---
 
 ## Reporting & Auditing
+
+<details>
+
+<summary><strong>📊 View all reporting commands</strong> (Inactive mailboxes, forwarding, permissions audits)</summary>
 
 ### 1. Inactive Mailboxes
 ```powershell
@@ -396,9 +415,15 @@ Get-DistributionGroup -ResultSize Unlimited | ForEach-Object {
 } | Export-Csv -Path "C:\GroupMembership.csv" -NoTypeInformation
 ```
 
+</details>
+
 ---
 
 ## Useful Tips & Best Practices
+
+<details>
+
+<summary><strong>💡 View tips and best practices</strong></summary>
 
 ### 1. Always Use -ResultSize Unlimited
 For large tenants, the default result size is limited. Always specify `-ResultSize Unlimited` when querying all objects.
@@ -430,6 +455,8 @@ Import-Csv "C:\permissions.csv" | ForEach-Object {
 # Always disconnect to free up resources
 Disconnect-ExchangeOnline -Confirm:$false
 ```
+
+</details>
 
 ---
 
