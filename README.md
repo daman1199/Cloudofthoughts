@@ -10,19 +10,20 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 
 ## 🆕 Latest Posts
 
-| Date     | Post                                                                                    | Category    | What You'll Learn                                                   |
-| -------- | --------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------- |
-| Dec 2025 | [ClickOps to Terraform - Part 1](/engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/) | Engineering | Start your Infrastructure as Code journey (Part 1 of 5-part series) |
-| Dec 2025 | [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/) | Cloud Admin | Secure mail flow configuration and phishing simulation setup        |
-| Dec 2025 | [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/)     | Field Notes | Automate topology diagrams and governance reports                   |
-| Dec 2025 | [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) | Insights    | Deploying AI in a financial institution (personal reflections)      |
+| Date     | Post                                                                                                                                      | Category    | What You'll Learn                                                                                     |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------- |
+| Dec 2025 | [Fixing Azure OpenAI Connection Failures with Private Endpoints](./insights/02-azopenai-apiconnection-error/)                             | Insights    | Troubleshooting APIConnectionError and SSL handshake failures with private endpoints                  |
+| Dec 2025 | [ClickOps to Terraform Part 1: Terraform with Azure CLI ](/engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/) | Engineering | Start your Infrastructure as Code journey with a local Terraform deployment (Part 1 of 5-part series) |
+| Dec 2025 | [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/)                                                   | Cloud Admin | Secure mail flow configuration and phishing simulation setup                                          |
+| Dec 2025 | [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/)                                                       | Field Notes | Automate topology diagrams and governance reports                                                     |
+| Dec 2025 | [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/)                                                   | Insights    | Deploying AI in a financial institution (personal reflections)                                        |
 
 ---
 
 ## ⭐ Popular Posts
 
 - 🏆 [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) - Zero Trust Kubernetes with no public endpoints
-- 🚀 [ClickOps to Terraform - Part 1](/engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/) - Learn Infrastructure as Code from scratch
+- 🚀 [ClickOps to Terraform - Part 1](/engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/) - Learn IaC from scratch with a local AzCLI & Terraform deployment
 - 💭 [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) - My personal experience with adopting AI in a Financial Institution 
 - 💻 [Azure CLI Reference](./field-notes/01-azure-cli-reference/) - Essential commands for daily infrastructure work
 
@@ -70,8 +71,8 @@ Operational guides and tips from my sysadmin days - focusing on M365, Google Wor
 
 ## 🚧 Coming Soon
 
-- Private AI Foundry deployment guides
-- Disaster recovery patterns
+- ClickOps to Terraform Part 2: Setting up Azure DevOps and Terraform
+- Secure multi-tier Azure App Service guide
 
 ---
 
