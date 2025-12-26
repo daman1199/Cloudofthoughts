@@ -45,27 +45,27 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 
 ### 🛠️ [Engineering Handbook](./engineering-handbook)
 Detailed implementation walkthroughs and build instructions for cloud engineering.
-- [ClickOps to Terraform Series](/engineering-handbook/clickops-to-terraform/) - 5-part Infrastructure as Code journey
-- [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/)
+- [ClickOps to Terraform Series](/engineering-handbook/clickops-to-terraform/) - 5-part Infrastructure as Code journey *(Dec 2025)*
+- [Deploying a Private AKS Cluster](./engineering-handbook/01-deploying-private-aks/) *(Dec 1, 2025)*
 
 ### 📋 [Field Notes](./field-notes)
 Quick reference guides, CLI commands, and architectural deep-dives from the field.
-- [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/)
-- [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/)
-- [Azure CLI Reference](./field-notes/01-azure-cli-reference/)
-- [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/)
+- [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/) *(Dec 17, 2025)*
+- [Hybrid DNS Resolution](./field-notes/03-hybrid-dns-resolution/) *(Dec 5, 2025)*
+- [Azure CLI Reference](./field-notes/01-azure-cli-reference/) *(Dec 5, 2025)*
+- [Azure PowerShell Reference](./field-notes/02-azure-powershell-reference/) *(Nov 2025)*
 
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
-- [Fixing Azure OpenAI Connection Failures with Private Endpoints](./insights/02-azopenai-apiconnection-error/)
-- [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/)
+- [Fixing Azure OpenAI Connection Failures with Private Endpoints](./insights/02-azopenai-apiconnection-error/) *(Dec 26, 2025)*
+- [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) *(Dec 11, 2025)*
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)
 Operational guides and tips from my sysadmin days - focusing on M365, Google Workspace, and SaaS platform administration.
-- [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/)
-- [Exchange Online PowerShell Guide](./cloud-admin-tips/02-exchange-online-powershell/)
-- [Entra SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/)
-- [Automating User Archival with GAM](./cloud-admin-tips/01-account-archiving-script/)
+- [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/) *(Dec 17, 2025)*
+- [Exchange Online PowerShell Guide](./cloud-admin-tips/02-exchange-online-powershell/) *(Dec 11, 2025)*
+- [Entra SharePoint App-Only Access](./cloud-admin-tips/01-sharepoint-app-only-access/) *(Dec 5, 2025)*
+- [Automating User Archival with GAM](./cloud-admin-tips/01-account-archiving-script/) *(Dec 8, 2025)*
 
 
 ---
