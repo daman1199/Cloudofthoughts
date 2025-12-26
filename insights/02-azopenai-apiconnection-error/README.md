@@ -210,7 +210,7 @@ Multiple hops. Cross-region latency. Firewall processing. No wonder the connecti
 
 The solution was straightforward once I understood the root cause:
 
-**1. Created a new private endpoint** for the Dev OpenAI resource in the same VNet as the Dev Web App:
+**1. Created a new private endpoint** for the Dev Microsoft Foundry resource in the same Virtual Network as the Dev Web App vNet Integration subnet:
 
 ![New Private Endpoint](images/new-private-endpoint.png)
 
