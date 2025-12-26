@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fixing Azure OpenAI Connection Failures with Private Endpoints
+title: Resolving API Connection Failures with Microsoft Foundry Private Endpoints
 permalink: /insights/02-azopenai-apiconnection-error/
 tags:
   - azure
@@ -12,11 +12,11 @@ tags:
 status: published
 type: insight
 date: 2025-12-26
-summary: Troubleshooting APIConnectionError, SSL handshake errors, and private endpoint routing issues in Azure AI Foundry secure deployments.
+summary: Troubleshooting APIConnectionError, SSL handshake errors, and private endpoint routing issues when connecting to Microsoft Foundry (formerly Azure AI Foundry) via private endpoints.
 ShowToc: true
 ---
 
-*Troubleshooting APIConnectionError, SSL handshake errors, and private endpoint routing issues in Azure AI Foundry secure deployments.*
+*Troubleshooting APIConnectionError, SSL handshake errors, and private endpoint routing issues when connecting to Microsoft Foundry (formerly Azure AI Foundry) via private endpoints.*
 
 | Date | Category |
 |------|----------|

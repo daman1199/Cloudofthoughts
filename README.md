@@ -12,7 +12,7 @@ Here you'll find my Azure notes, real-world experiences, scripts, and shortcuts�
 
 | Date     | Post                                                                                                                                      | Category    | What You'll Learn                                                                                     |
 | -------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------- |
-| Dec 2025 | [Fixing Azure OpenAI Connection Failures with Private Endpoints](./insights/02-azopenai-apiconnection-error/)                             | Insights    | Troubleshooting APIConnectionError and SSL handshake failures with private endpoints                  |
+| Dec 2025 | [Resolving API Connection Failures with Microsoft Foundry Private Endpoints](./insights/02-azopenai-apiconnection-error/)                             | Insights    | Troubleshooting connection errors with Microsoft Foundry (formerly Azure AI Foundry) private endpoints                  |
 | Dec 2025 | [ClickOps to Terraform Part 1: Terraform with Azure CLI ](/engineering-handbook/series/terraform-essentials/01-terraform-with-azure-cli/) | Engineering | Start your Infrastructure as Code journey with a local Terraform deployment (Part 1 of 5-part series) |
 | Dec 2025 | [M365 & Proofpoint Best Practices](./cloud-admin-tips/05-m365-proofpoint-bestpractice/)                                                   | Cloud Admin | Secure mail flow configuration and phishing simulation setup                                          |
 | Dec 2025 | [Visualizing Azure: AzViz & AzGovViz](./field-notes/04-visualizing-azure-topology/)                                                       | Field Notes | Automate topology diagrams and governance reports                                                     |
@@ -57,7 +57,7 @@ Quick reference guides, CLI commands, and architectural deep-dives from the fiel
 
 ### 💭 [Insights](./insights)
 Personal reflections and lessons learned from cloud engineering work.
-- [Fixing Azure OpenAI Connection Failures with Private Endpoints](./insights/02-azopenai-apiconnection-error/) *(Dec 26, 2025)*
+- [Resolving API Connection Failures with Microsoft Foundry Private Endpoints](./insights/02-azopenai-apiconnection-error/) *(Dec 26, 2025)*
 - [The Year We Taught Our Knowledge Base to Talk Back](./insights/01-ai-adoption-in-org/) *(Dec 11, 2025)*
 
 ### 📦 [Cloud Admin Tips](./cloud-admin-tips)

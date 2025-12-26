@@ -8,7 +8,7 @@ ShowToc: true
 Lessons learned and thoughts on cloud engineering.
 
 ---
-### 🔧 [Fixing Azure OpenAI Connection Failures with Private Endpoints](./02-azopenai-apiconnection-error/)
+### 🔧 [Resolving API Connection Failures with Microsoft Foundry Private Endpoints](./02-azopenai-apiconnection-error/)
 *Published: December 26 2025*
 
 Troubleshooting intermittent APIConnectionError and SSL handshake failures with Azure OpenAI behind private endpoints—and the network routing lesson learned.
