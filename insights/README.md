@@ -9,7 +9,7 @@ Personal reflections, lessons learned, and insights from cloud engineering work.
 ## Posts
 
 ### [The Year We Taught Our Knowledge Base to Talk Back](./01-ai-adoption-in-org/)
-*Published: December 2025*
+*Published: December 22 2025*
 
 Follow me on my journey of navigating the buzzword of the century and my experience of bringing it to reality. 
 
