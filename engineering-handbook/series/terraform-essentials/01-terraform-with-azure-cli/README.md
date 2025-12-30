@@ -684,14 +684,8 @@ output "vnet_id" {
 
 Now that you understand how Terraform works locally, you're ready to move to team collaboration and automation!
 
-**[Continue to Part 2: Setting Up Azure DevOps and Terraform →](../02-setting-up-azure-devops-terraform/)**
-
-In Part 2, you'll learn:
-- How authentication works in CI/CD pipelines
-- Creating service principals for automation
-- Configuring remote state storage
-- Building your first Terraform pipeline
+**Continue to Part 2: Setting Up Azure DevOps and Terraform → (Coming Soon)**
 
 ---
 
-[← Back to Series Overview](../) | [Back to Engineering Handbook](../../README.md)
+[← Back to Series Overview](../) | [Back to Engineering Handbook](/engineering-handbook/)

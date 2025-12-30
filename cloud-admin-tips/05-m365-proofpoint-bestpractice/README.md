@@ -511,7 +511,7 @@ Set-HostedContentFilterPolicy -Identity "Default" -ZapEnabled $false -SpamZapEna
 
 ### Proofpoint Community
 - [Proofpoint Customer Success Portal](https://proofpointcommunities.force.com/community/s/)
-- [Prevent Unauthorized M365 Allow-Relay](https://proofpointcommunities.force.com/community/s/article/Prevent-Unauthorized-Microsoft-365-Allow-Relay)
+
 - [IP/Domain Reputation Warmup Guide](https://proofpointcommunities.force.com/)
 - [Dynamic Reputation IP Lookup](https://ipcheck.proofpoint.com/)
 
