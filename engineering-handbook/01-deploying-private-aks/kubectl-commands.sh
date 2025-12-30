@@ -24,7 +24,9 @@ kubectl apply -f <file.yaml>        # Apply a manifest file
 
 # --- 4. Networking Debugging ---
 kubectl get endpoints               # Check if your Service is targeting any Pods
-kubectl get ingress                 # List Ingress resources
+kubectl get ingress 
+# Check DNS resolution from within the cluster
+kubectl run dns-test --rm -it --image=busybox --restart=Never -- nslookup <fqdn>               # List Ingress resources
 
 # ==========================================
 # AKS Command Invoke (No VPN Access)
