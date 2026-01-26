@@ -2,6 +2,9 @@
 layout: page
 title: "Automating Google Workspace User Archival with GAM"
 permalink: /cloud-admin-tips/01-account-archiving-script/
+redirect_from:
+  - /blog/google-workspace/gam
+  - /admin-handbook/01-account-archiving-script/
 tags: [google-workspace, admin, gam, powershell, automation]
 status: published
 type: handbook

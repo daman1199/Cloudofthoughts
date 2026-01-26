@@ -2,6 +2,9 @@
 layout: page
 title: "Hybrid DNS Resolution"
 permalink: /field-notes/03-hybrid-dns-resolution/
+redirect_from:
+  - /blog/azure/hybrid-dns-resolution
+  - /engineer-handbook/03-hybrid-dns-resolution/
 tags: [azure, networking, dns]
 status: published
 type: handbook

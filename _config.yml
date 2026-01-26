@@ -1,3 +1,6 @@
 title: Daman's Cloud of Thoughts
 description: Technical Musings & Engineering Handbooks
 remote_theme: oinam/oinam-jekyll
+
+plugins:
+  - jekyll-redirect-from
