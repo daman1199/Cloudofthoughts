@@ -3,7 +3,7 @@ layout: page
 title: Deploying a Private AKS Cluster
 aliases:
   - Private AKS Guide
-permalink: /guides/01-deploying-private-aks/
+permalink: /engineering-handbook/01-deploying-private-aks/
 tags:
   - azure
   - kubernetes

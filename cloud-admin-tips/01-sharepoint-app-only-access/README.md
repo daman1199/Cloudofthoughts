@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SharePoint App-Only Access via Entra ID"
-permalink: /admin-handbook/01-sharepoint-app-only-access/
+permalink: /cloud-admin-tips/01-sharepoint-app-only-access/
 status: published
 type: handbook
 date: 2025-12-05

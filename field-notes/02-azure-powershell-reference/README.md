@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Azure PowerShell Reference"
-permalink: /engineer-handbook/02-azure-powershell-reference/
+permalink: /field-notes/02-azure-powershell-reference/
 tags: [azure, powershell]
 status: published
 type: handbook

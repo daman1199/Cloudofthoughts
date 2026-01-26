@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Hybrid DNS Resolution"
-permalink: /engineer-handbook/03-hybrid-dns-resolution/
+permalink: /field-notes/03-hybrid-dns-resolution/
 tags: [azure, networking, dns]
 status: published
 type: handbook

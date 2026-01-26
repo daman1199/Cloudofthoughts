@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Azure CLI Reference"
-permalink: /engineer-handbook/01-azure-cli-reference/
+permalink: /field-notes/01-azure-cli-reference/
 tags: [azure, cli]
 status: published
 type: handbook
