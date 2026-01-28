@@ -12,12 +12,12 @@ tags:
 status: published
 type: insight
 date: 2025-12-11
-summary: Lessons from deploying a RAG-based AI assistant in a financial institution.
+summary: "From the 2025 Microsoft AI Tour to production: a year of deploying AI in a financial institution."
 image: /insights/01-ai-adoption-in-org/images/IMG_2070.jpeg
 ShowToc: true
 ---
 
-*Reflections on deploying an internal AI solution in a financial institution.*
+*From the 2025 Microsoft AI Tour to production: a year of deploying AI in a financial institution.*
 
 ![Javits Center](images/IMG_2070.jpeg)
 
