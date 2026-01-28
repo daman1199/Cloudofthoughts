@@ -19,12 +19,6 @@ Troubleshooting APIConnectionError, SSL handshake errors, and private endpoint r
 
 End-of-year reflections: from the 2025 Microsoft AI Tour to deploying an AI assistant that teams actually use at a financial institution.
 
-
-
-<br>
-
-<br>
-
 ---
 
 **Looking for step-by-step guides?** Head to the [Engineering Handbook](/engineering-handbook/) for hands-on implementations.
