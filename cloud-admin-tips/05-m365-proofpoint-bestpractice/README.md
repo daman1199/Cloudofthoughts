@@ -22,6 +22,18 @@ ShowToc: true
 
 ---
 
+## 📝 Update — January 27, 2026
+
+> **Note:** If you're experiencing email delays, this optimization may help. However, emails with legitimate attachments can still be delayed up to 4 minutes due to Proofpoint's attachment scanning and sandboxing process.
+>
+> **Disable RTF to prevent `winmail.dat`:** Exchange Online's Rich Text Format creates `winmail.dat` files that cause Proofpoint to treat every email as having an attachment, triggering unnecessary scanning. To disable, go to **Exchange Admin Center** → **Mail flow** → **Remote domains** → **Default** → **Edit** → set **Use rich-text format** to **Never**.
+>
+> ![Disable RTF in Exchange Online](./images/Disable-RTF-ExchangeOnline.png)
+>
+> **PowerShell:** `Set-RemoteDomain -Identity "Default" -TNEFEnabled $false`
+
+---
+
 ## Overview
 
 Microsoft 365 provides many email security tools natively. However, organizations that incorporate defense-in-depth for email often use third-party security solutions like Proofpoint Protection Server (PPS). When integrating M365 with Proofpoint, you need to configure:
